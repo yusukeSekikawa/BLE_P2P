@@ -1,10 +1,12 @@
 //
 //  HIDManager.m
-//  GSHOCK
+//  BLE_P2P
 //
 //  Created by Yusuke Sekikawa on 1/3/13.
 //  Copyright (c) 2013 y.sekikawa. All rights reserved.
 //
+
+//Some Useful Informations
 //http://huntanswer.com/question/tag/system/
 //http://stackoverflow.com/questions/11493846/system-wide-tap-simulation-on-ios
 //http://code.google.com/p/iphone-tweaks/source/browse/trunk/KeyMouseRelay/KeyMouseRelay.mm?r=67
@@ -27,8 +29,6 @@
 #include <mach/mach_init.h>
 #include <dlfcn.h>
 #import "GSEvent.h"
-
-
 
 @implementation HIDManager
 +(void)volumeUp{

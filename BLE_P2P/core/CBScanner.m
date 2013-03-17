@@ -10,9 +10,6 @@
 #import "CBUUID+Hepler.h"
 
 #define CBScannerFilterServices
-
-
-
 @implementation CBScanner
 
 
