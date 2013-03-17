@@ -1,0 +1,880 @@
+THUB
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/Debug-iphoneos/HUB.app/Info.plist "BLE_P2P copy2-Info.plist"
+cCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/ResourceRules.plist build/Debug-iphoneos/HUB.app/ResourceRules.plist
+cProcessPCH /var/folders/mf/m7g7cgf53xggwwr2qgjl2kwh0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/BLE_P2P-Prefix-fzgdqtasfoehxjdiftgbdvufmhty/BLE_P2P-Prefix.pch.pth BLE_P2P/BLE_P2P-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH /var/folders/mf/m7g7cgf53xggwwr2qgjl2kwh0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/BLE_P2P-Prefix-ftyynkgvfngtzafcghyfouzwwjar/BLE_P2P-Prefix.pch.pth BLE_P2P/BLE_P2P-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7s/CBAdvertizer.o /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/BLE_P2P/core/CBAdvertizer.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7s/AJNotificationView.o /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/BLE_P2P/AJNotificationView/AJNotificationView.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7s/main.o /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/BLE_P2P/main.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7s/AppDelegate.o /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/BLE_P2P/AppDelegate.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7/CBAdvertizer.o /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/BLE_P2P/core/CBAdvertizer.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7/main.o /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/BLE_P2P/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7/AppDelegate.o /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/BLE_P2P/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7/ViewController.o /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/BLE_P2P/ViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7/CBScanner.o /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/BLE_P2P/core/CBScanner.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7/CBUUID+Hepler.o /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/BLE_P2P/core/CBUUID+Hepler.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7/AJNotificationView.o /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/BLE_P2P/AJNotificationView/AJNotificationView.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7/HIDManager.o /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/BLE_P2P/Private/HIDManager.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7s/ViewController.o /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/BLE_P2P/ViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7s/CBScanner.o /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/BLE_P2P/core/CBScanner.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7s/CBUUID+Hepler.o /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/BLE_P2P/core/CBUUID+Hepler.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7s/HIDManager.o /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/BLE_P2P/Private/HIDManager.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7/HUB normal armv7
+cLd /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7s/HUB normal armv7s
+cCreateUniversalBinary /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/Debug-iphoneos/HUB.app/HUB normal "armv7 armv7s"
+cGenerateDSYMFile /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/Debug-iphoneos/HUB.app.dSYM /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/Debug-iphoneos/HUB.app/HUB
+cCopyStringsFile /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/Debug-iphoneos/HUB.app/en.lproj/InfoPlist.strings BLE_P2P/en.lproj/InfoPlist.strings
+cCopyPNGFile /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/Debug-iphoneos/HUB.app/Default@2x.png BLE_P2P/Default@2x.png
+cCopyPNGFile /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/Debug-iphoneos/HUB.app/Default.png BLE_P2P/Default.png
+cCopyPNGFile /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/Debug-iphoneos/HUB.app/Default-568h@2x.png BLE_P2P/Default-568h@2x.png
+cCopyPNGFile /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/Debug-iphoneos/HUB.app/icon_114.png icon_114.png
+cCopyPNGFile /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/Debug-iphoneos/HUB.app/icon_57.png icon_57.png
+cCompileStoryboard /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/BLE_P2P/en.lproj/MainStoryboard.storyboard
+cPhaseScriptExecution "Run Script" /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/Script-6B634DA916F3298400F8C398.sh
+cProcessProductPackaging "/Users/ysekikawa/Library/MobileDevice/Provisioning Profiles/BDCF97BA-F4C9-4563-91DE-96CE6C2A4BFF.mobileprovision" /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/Debug-iphoneos/HUB.app/embedded.mobileprovision
+cProcessProductPackaging "/Users/ysekikawa/Library/MobileDevice/Provisioning Profiles/BDCF97BA-F4C9-4563-91DE-96CE6C2A4BFF.mobileprovision" /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/Debug-iphoneos/HUB.app/embedded.mobileprovision
+cTouch /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/Debug-iphoneos/HUB.app
+cProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/HUB.xcent
+cCodeSign /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/Debug-iphoneos/HUB.app
+cValidate /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/Debug-iphoneos/HUB.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk
+c0000000050ED385D0000000000000110
+t1357723741
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist
+c00000000510783A800000000000001A7
+t1359446952
+s423
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/ResourceRules.plist
+c00000000510783A800000000000001E5
+t1359446952
+s485
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c00000000510783AA000000000036CDF0
+t1359446954
+s3591664
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c00000000510783AA00000000006B1F40
+t1359446954
+s7020352
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+c00000000510783AA00000000002C8530
+t1359446954
+s2917680
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/CoreBluetooth.framework/CoreBluetooth
+c00000000510783A900000000000483B0
+t1359446953
+s295856
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c00000000510783AA0000000000322700
+t1359446954
+s3286784
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c00000000510783AC000000000062AD10
+t1359446956
+s6466832
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c00000000510783AB00000000000015F7
+t1359446955
+s5623
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/MediaPlayer.framework/MediaPlayer
+c00000000510783AC00000000005807F0
+t1359446956
+s5769200
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c00000000510783AC0000000000000E8D
+t1359446956
+s3725
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c00000000510783B000000000011BCDF0
+t1359446960
+s18599408
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/usr/include/Availability.h
+c00000000510783B30000000000001B73
+t1359446963
+s7027
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/usr/include/objc/runtime.h
+c00000000510783B4000000000000672A
+t1359446964
+s26410
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/usr/include/stdio.h
+c00000000510783B40000000000004523
+t1359446964
+s17699
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/usr/include/stdlib.h
+c00000000510783B40000000000003089
+t1359446964
+s12425
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/usr/include/sys/time.h
+c00000000510783B40000000000001E64
+t1359446964
+s7780
+
+N/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/BLE_P2P/AJNotificationView/AJNotificationView.h
+c0000000050D136960000000000000EF7
+t1355888278
+s3831
+
+N/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/BLE_P2P/AJNotificationView/AJNotificationView.m
+c0000000050D136960000000000004B70
+t1355888278
+s19312
+
+N/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/BLE_P2P/AppDelegate.h
+c0000000050988E950000000000000118
+t1352175253
+s280
+
+N/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/BLE_P2P/AppDelegate.m
+c0000000050988E9500000000000007DA
+t1352175253
+s2010
+
+N/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/BLE_P2P/BLE_P2P-Prefix.pch
+c0000000050F4D0410000000000000514
+t1358221377
+s1300
+i<Availability.h>
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+i<objc/objc-runtime.h>
+i<objc/runtime.h>
+i<stdlib.h>
+i<stdio.h>
+i<sys/time.h>
+
+N/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/BLE_P2P/Default-568h@2x.png
+c0000000050262AB100000000000048A2
+t1344678577
+s18594
+
+N/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/BLE_P2P/Default.png
+c0000000050262AB1000000000000198C
+t1344678577
+s6540
+
+N/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/BLE_P2P/Default@2x.png
+c0000000050262AB10000000000003EEB
+t1344678577
+s16107
+
+N/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/BLE_P2P/Private/GSEvent.h
+c0000000050E51E9D0000000000004373
+t1357192861
+s17267
+
+N/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/BLE_P2P/Private/HIDManager.h
+c0000000050FB401C0000000000000273
+t1358643228
+s627
+
+N/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/BLE_P2P/Private/HIDManager.m
+c0000000050FBB6C800000000000022A1
+t1358673608
+s8865
+
+N/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/BLE_P2P/ViewController.h
+c0000000050FB97B70000000000000468
+t1358665655
+s1128
+
+N/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/BLE_P2P/ViewController.m
+c000000005118AF1300000000000026BD
+t1360572179
+s9917
+
+N/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/BLE_P2P/core/CBAdvertizer.h
+c000000005142F22B000000000000049B
+t1363341867
+s1179
+
+N/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/BLE_P2P/core/CBAdvertizer.m
+c0000000050FA68BF0000000000002283
+t1358588095
+s8835
+
+N/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/BLE_P2P/core/CBScanner.h
+c0000000050F22FAF000000000000043B
+t1358049199
+s1083
+
+N/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/BLE_P2P/core/CBScanner.m
+c00000000513FEA490000000000004A37
+t1363143241
+s18999
+
+N/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/BLE_P2P/core/CBUUID+Hepler.h
+c0000000050F56BAF00000000000006BD
+t1358261167
+s1725
+
+N/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/BLE_P2P/core/CBUUID+Hepler.m
+c0000000050E56084000000000000038C
+t1357209732
+s908
+
+N/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/BLE_P2P/en.lproj/InfoPlist.strings
+c0000000050988E95000000000000002D
+t1352175253
+s45
+
+N/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/BLE_P2P/en.lproj/MainStoryboard.storyboard
+c0000000050FF4AC40000000000005A36
+t1358908100
+s23094
+
+N/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/BLE_P2P/main.m
+c0000000050988E950000000000000153
+t1352175253
+s339
+
+N/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/HUB.xcent
+t1359543154
+s505
+
+N/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7/AJNotificationView.o
+t1359543153
+s139140
+
+N/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7/AppDelegate.o
+t1359543153
+s85840
+
+N/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7/CBAdvertizer.o
+t2
+s0
+
+N/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7/CBScanner.o
+t1363341835
+s84524
+
+N/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7/CBUUID+Hepler.o
+t1359543153
+s7080
+
+N/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7/HIDManager.o
+t1359543153
+s15096
+
+N/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7/HUB
+t1363341836
+s141536
+
+N/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7/HUB.LinkFileList
+c000000005108FB70000000000000043B
+t1359543152
+s1083
+
+N/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7/ViewController.o
+t2
+s0
+
+N/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7/main.o
+t1359543153
+s3432
+
+N/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7s/AJNotificationView.o
+t1359543153
+s139108
+
+N/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7s/AppDelegate.o
+t1359543152
+s85840
+
+N/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7s/CBAdvertizer.o
+t2
+s0
+
+N/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7s/CBScanner.o
+t1363341835
+s84524
+
+N/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7s/CBUUID+Hepler.o
+t1359543153
+s7080
+
+N/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7s/HIDManager.o
+t1359543153
+s15096
+
+N/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7s/HUB
+t1363341836
+s141544
+
+N/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7s/HUB.LinkFileList
+c000000005108FB700000000000000443
+t1359543152
+s1091
+
+N/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7s/ViewController.o
+t2
+s0
+
+N/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7s/main.o
+t1359543152
+s3432
+
+N/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/Script-6B634DA916F3298400F8C398.sh
+c000000005142F20B00000000000000F1
+t1363341835
+s241
+
+N/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/com.apple.build-tools.platform.validate
+t2
+s0
+
+N/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/Debug-iphoneos/HUB.app
+t1363341836
+s476
+
+N/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/Debug-iphoneos/HUB.app.dSYM
+t1363341836
+s102
+
+N/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/Debug-iphoneos/HUB.app/Default-568h@2x.png
+t1359543154
+s7014
+
+N/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/Debug-iphoneos/HUB.app/Default.png
+t1359543154
+s3688
+
+N/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/Debug-iphoneos/HUB.app/Default@2x.png
+t1359543154
+s6316
+
+N/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/Debug-iphoneos/HUB.app/HUB
+t1363341836
+s312368
+
+N/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/Debug-iphoneos/HUB.app/Info.plist
+t1359543152
+s1281
+
+N/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/Debug-iphoneos/HUB.app/PkgInfo
+t1359543152
+s8
+
+N/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/Debug-iphoneos/HUB.app/ResourceRules.plist
+t1359543152
+s485
+
+N/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/Debug-iphoneos/HUB.app/embedded.mobileprovision
+t1359543154
+s11396
+
+N/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/Debug-iphoneos/HUB.app/en.lproj/InfoPlist.strings
+t1359543153
+s42
+
+N/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/Debug-iphoneos/HUB.app/en.lproj/MainStoryboard.storyboardc
+t1359543154
+s170
+
+N/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/Debug-iphoneos/HUB.app/icon_114.png
+t1359543154
+s5673
+
+N/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/Debug-iphoneos/HUB.app/icon_57.png
+t1359543154
+s4166
+
+N/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/icon_114.png
+c000000005053DD0E0000000000001A32
+t1347673358
+s6706
+
+N/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/icon_57.png
+c0000000050E558D80000000000001237
+t1357207768
+s4663
+
+N/Users/ysekikawa/Library/MobileDevice/Provisioning Profiles/BDCF97BA-F4C9-4563-91DE-96CE6C2A4BFF.mobileprovision
+c000000005105D6860000000000002C84
+t1359337094
+s11396
+
+N/var/folders/mf/m7g7cgf53xggwwr2qgjl2kwh0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/BLE_P2P-Prefix-ftyynkgvfngtzafcghyfouzwwjar/BLE_P2P-Prefix.pch.pth
+t1359543152
+s4682348
+
+N/var/folders/mf/m7g7cgf53xggwwr2qgjl2kwh0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/BLE_P2P-Prefix-fzgdqtasfoehxjdiftgbdvufmhty/BLE_P2P-Prefix.pch.pth
+t1359543152
+s4682396
+
+NBLE_P2P copy2-Info.plist
+c0000000050F4CE0F00000000000006BE
+t1358220815
+s1726
+
+CBuild AST from /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/BLE_P2P/AJNotificationView/AJNotificationView.m
+r0
+
+CBuild AST from /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/BLE_P2P/AppDelegate.m
+r0
+
+CBuild AST from /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/BLE_P2P/Private/HIDManager.m
+r0
+
+CBuild AST from /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/BLE_P2P/ViewController.m
+r0
+
+CBuild AST from /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/BLE_P2P/core/CBAdvertizer.m
+r0
+
+CBuild AST from /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/BLE_P2P/core/CBScanner.m
+r0
+
+CBuild AST from /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/BLE_P2P/core/CBUUID+Hepler.m
+r0
+
+CBuild AST from /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/BLE_P2P/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies97ab43ab29f3b641^be8846ab29f3b641^---0#1#0#--18"Check dependencies36"A5BD1CB7-97C1-4004-A53A-7545BF91DF87-
+
+CCodeSign /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/Debug-iphoneos/HUB.app
+s385034667.893610
+e385034668.146657
+r1
+xCodeSign
+x/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/Debug-iphoneos/HUB.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"CodeSign build/Debug-iphoneos/HUB.app7cd3e4ab29f3b641^728b25ac29f3b641^---0#0#0#-19%DVTDocumentLocation2@112"file://localhost/Users/ySekikawa/Dropbox/iOS6%E5%9F%B7%E7%AD%86/samples/08/BLE_P2P/build/Debug-iphoneos/HUB.app/0000000000000000^832"CodeSign build/Debug-iphoneos/HUB.app    cd /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P    setenv CODESIGN_ALLOCATE /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/codesign --force --sign 3eb9520f00c0884313aa5721900d345483147850 --resource-rules=/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/Debug-iphoneos/HUB.app/ResourceRules.plist --entitlements /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/HUB.xcent /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/Debug-iphoneos/HUB.app36"B61A478A-5F87-4088-A5FB-6EF1DA68B09F-
+
+CCompileC build/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7/AJNotificationView.o /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/BLE_P2P/AJNotificationView/AJNotificationView.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s381235953.252668
+e381235953.648848
+r1
+xCompileC
+xbuild/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7/AJNotificationView.o
+x/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/BLE_P2P/AJNotificationView/AJNotificationView.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection110"Compile /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/BLE_P2P/AJNotificationView/AJNotificationView.m0ada40f132b9b641^1157a6f132b9b641^---0#0#0#-19%DVTDocumentLocation2@130"file://localhost/Users/ySekikawa/Dropbox/iOS6%E5%9F%B7%E7%AD%86/samples/08/BLE_P2P/BLE_P2P/AJNotificationView/AJNotificationView.m0000000000000000^3501"CompileC build/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7/AJNotificationView.o BLE_P2P/AJNotificationView/AJNotificationView.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=6.0 -iquote /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/HUB-generated-files.hmap -I/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/HUB-own-target-headers.hmap -I/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/HUB-all-target-headers.hmap -iquote /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/HUB-project-headers.hmap -I/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/DerivedSources/armv7 -I/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/DerivedSources -F/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/Debug-iphoneos -include /var/folders/mf/m7g7cgf53xggwwr2qgjl2kwh0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/BLE_P2P-Prefix-ftyynkgvfngtzafcghyfouzwwjar/BLE_P2P-Prefix.pch -MMD -MT dependencies -MF /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7/AJNotificationView.d --serialize-diagnostics /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7/AJNotificationView.dia -c /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/BLE_P2P/AJNotificationView/AJNotificationView.m -o /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7/AJNotificationView.o36"05AEF331-E122-462A-B746-09B0E5AC5133-
+
+CCompileC build/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7/AppDelegate.o /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/BLE_P2P/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s381235953.005798
+e381235953.186204
+r1
+xCompileC
+xbuild/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7/AppDelegate.o
+x/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/BLE_P2P/AppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Compile /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/BLE_P2P/AppDelegate.m93a601f132b9b641^2cb82ff132b9b641^---0#0#0#-19%DVTDocumentLocation2@104"file://localhost/Users/ySekikawa/Dropbox/iOS6%E5%9F%B7%E7%AD%86/samples/08/BLE_P2P/BLE_P2P/AppDelegate.m0000000000000000^3421"CompileC build/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7/AppDelegate.o BLE_P2P/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=6.0 -iquote /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/HUB-generated-files.hmap -I/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/HUB-own-target-headers.hmap -I/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/HUB-all-target-headers.hmap -iquote /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/HUB-project-headers.hmap -I/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/DerivedSources/armv7 -I/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/DerivedSources -F/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/Debug-iphoneos -include /var/folders/mf/m7g7cgf53xggwwr2qgjl2kwh0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/BLE_P2P-Prefix-ftyynkgvfngtzafcghyfouzwwjar/BLE_P2P-Prefix.pch -MMD -MT dependencies -MF /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7/AppDelegate.d --serialize-diagnostics /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7/AppDelegate.dia -c /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/BLE_P2P/AppDelegate.m -o /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7/AppDelegate.o36"0682A556-3AC0-4BB2-98C2-A2C9586BBE1B-
+
+CCompileC build/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7/CBAdvertizer.o /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/BLE_P2P/core/CBAdvertizer.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s385034667.303886
+e385034667.457446
+r1
+xCompileC
+xbuild/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7/CBAdvertizer.o
+x/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/BLE_P2P/core/CBAdvertizer.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compile /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/BLE_P2P/core/CBAdvertizer.m2de84dab29f3b641^a22775ab29f3b641^---0#0#0#-19%DVTDocumentLocation2@110"file://localhost/Users/ySekikawa/Dropbox/iOS6%E5%9F%B7%E7%AD%86/samples/08/BLE_P2P/BLE_P2P/core/CBAdvertizer.m0000000000000000^3437"CompileC build/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7/CBAdvertizer.o BLE_P2P/core/CBAdvertizer.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=6.0 -iquote /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/HUB-generated-files.hmap -I/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/HUB-own-target-headers.hmap -I/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/HUB-all-target-headers.hmap -iquote /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/HUB-project-headers.hmap -I/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/DerivedSources/armv7 -I/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/DerivedSources -F/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/Debug-iphoneos -include /var/folders/mf/m7g7cgf53xggwwr2qgjl2kwh0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/BLE_P2P-Prefix-ftyynkgvfngtzafcghyfouzwwjar/BLE_P2P-Prefix.pch -MMD -MT dependencies -MF /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7/CBAdvertizer.d --serialize-diagnostics /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7/CBAdvertizer.dia -c /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/BLE_P2P/core/CBAdvertizer.m -o /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7/CBAdvertizer.o36"E88992B7-D55C-4949-A8EC-4957F2CFC0A4-
+
+CCompileC build/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7/CBScanner.o /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/BLE_P2P/core/CBScanner.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s385034635.209866
+e385034635.956075
+r1
+xCompileC
+xbuild/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7/CBScanner.o
+x/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/BLE_P2P/core/CBScanner.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Compile /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/BLE_P2P/core/CBScanner.m795a368b29f3b641^94c2f48b29f3b641^---0#0#0#-19%DVTDocumentLocation2@107"file://localhost/Users/ySekikawa/Dropbox/iOS6%E5%9F%B7%E7%AD%86/samples/08/BLE_P2P/BLE_P2P/core/CBScanner.m0000000000000000^3419"CompileC build/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7/CBScanner.o BLE_P2P/core/CBScanner.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=6.0 -iquote /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/HUB-generated-files.hmap -I/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/HUB-own-target-headers.hmap -I/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/HUB-all-target-headers.hmap -iquote /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/HUB-project-headers.hmap -I/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/DerivedSources/armv7 -I/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/DerivedSources -F/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/Debug-iphoneos -include /var/folders/mf/m7g7cgf53xggwwr2qgjl2kwh0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/BLE_P2P-Prefix-ftyynkgvfngtzafcghyfouzwwjar/BLE_P2P-Prefix.pch -MMD -MT dependencies -MF /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7/CBScanner.d --serialize-diagnostics /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7/CBScanner.dia -c /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/BLE_P2P/core/CBScanner.m -o /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7/CBScanner.o36"DB06B040-DCD4-4350-BD8D-4F834DAA15EA-
+
+CCompileC build/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7/CBUUID+Hepler.o /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/BLE_P2P/core/CBUUID+Hepler.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s381235953.187499
+e381235953.251388
+r1
+xCompileC
+xbuild/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7/CBUUID+Hepler.o
+x/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/BLE_P2P/core/CBUUID+Hepler.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Compile /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/BLE_P2P/core/CBUUID+Hepler.mf62830f132b9b641^aa6440f132b9b641^---0#0#0#-19%DVTDocumentLocation2@111"file://localhost/Users/ySekikawa/Dropbox/iOS6%E5%9F%B7%E7%AD%86/samples/08/BLE_P2P/BLE_P2P/core/CBUUID+Hepler.m0000000000000000^3443"CompileC build/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7/CBUUID+Hepler.o BLE_P2P/core/CBUUID+Hepler.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=6.0 -iquote /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/HUB-generated-files.hmap -I/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/HUB-own-target-headers.hmap -I/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/HUB-all-target-headers.hmap -iquote /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/HUB-project-headers.hmap -I/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/DerivedSources/armv7 -I/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/DerivedSources -F/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/Debug-iphoneos -include /var/folders/mf/m7g7cgf53xggwwr2qgjl2kwh0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/BLE_P2P-Prefix-ftyynkgvfngtzafcghyfouzwwjar/BLE_P2P-Prefix.pch -MMD -MT dependencies -MF /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7/CBUUID+Hepler.d --serialize-diagnostics /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7/CBUUID+Hepler.dia -c /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/BLE_P2P/core/CBUUID+Hepler.m -o /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7/CBUUID+Hepler.o36"72E9EA66-13A8-4910-AB9D-2D90FC78D94E-
+
+CCompileC build/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7/HIDManager.o /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/BLE_P2P/Private/HIDManager.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s381235953.319359
+e381235953.411996
+r1
+xCompileC
+xbuild/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7/HIDManager.o
+x/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/BLE_P2P/Private/HIDManager.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Compile /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/BLE_P2P/Private/HIDManager.m83fb51f132b9b641^b37869f132b9b641^---0#0#0#-19%DVTDocumentLocation2@111"file://localhost/Users/ySekikawa/Dropbox/iOS6%E5%9F%B7%E7%AD%86/samples/08/BLE_P2P/BLE_P2P/Private/HIDManager.m0000000000000000^3431"CompileC build/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7/HIDManager.o BLE_P2P/Private/HIDManager.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=6.0 -iquote /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/HUB-generated-files.hmap -I/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/HUB-own-target-headers.hmap -I/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/HUB-all-target-headers.hmap -iquote /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/HUB-project-headers.hmap -I/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/DerivedSources/armv7 -I/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/DerivedSources -F/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/Debug-iphoneos -include /var/folders/mf/m7g7cgf53xggwwr2qgjl2kwh0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/BLE_P2P-Prefix-ftyynkgvfngtzafcghyfouzwwjar/BLE_P2P-Prefix.pch -MMD -MT dependencies -MF /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7/HIDManager.d --serialize-diagnostics /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7/HIDManager.dia -c /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/BLE_P2P/Private/HIDManager.m -o /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7/HIDManager.o36"CDA763BC-7828-463B-80BA-BCC8750361FF-
+
+CCompileC build/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7/ViewController.o /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/BLE_P2P/ViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s385034667.305259
+e385034667.607807
+r1
+xCompileC
+xbuild/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7/ViewController.o
+x/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/BLE_P2P/ViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Compile /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/BLE_P2P/ViewController.m0f484eab29f3b641^4a9a9bab29f3b641^---0#0#0#-19%DVTDocumentLocation2@107"file://localhost/Users/ySekikawa/Dropbox/iOS6%E5%9F%B7%E7%AD%86/samples/08/BLE_P2P/BLE_P2P/ViewController.m0000000000000000^3439"CompileC build/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7/ViewController.o BLE_P2P/ViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=6.0 -iquote /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/HUB-generated-files.hmap -I/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/HUB-own-target-headers.hmap -I/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/HUB-all-target-headers.hmap -iquote /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/HUB-project-headers.hmap -I/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/DerivedSources/armv7 -I/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/DerivedSources -F/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/Debug-iphoneos -include /var/folders/mf/m7g7cgf53xggwwr2qgjl2kwh0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/BLE_P2P-Prefix-ftyynkgvfngtzafcghyfouzwwjar/BLE_P2P-Prefix.pch -MMD -MT dependencies -MF /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7/ViewController.d --serialize-diagnostics /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7/ViewController.dia -c /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/BLE_P2P/ViewController.m -o /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7/ViewController.o36"FB20172D-44A6-48E8-89E7-2751C101E26E-
+
+CCompileC build/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7/main.o /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/BLE_P2P/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s381235952.957679
+e381235953.024303
+r1
+xCompileC
+xbuild/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7/main.o
+x/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/BLE_P2P/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/BLE_P2P/main.m4354f5f032b9b641^5a4a06f132b9b641^---0#0#0#-19%DVTDocumentLocation2@97"file://localhost/Users/ySekikawa/Dropbox/iOS6%E5%9F%B7%E7%AD%86/samples/08/BLE_P2P/BLE_P2P/main.m0000000000000000^3379"CompileC build/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7/main.o BLE_P2P/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=6.0 -iquote /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/HUB-generated-files.hmap -I/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/HUB-own-target-headers.hmap -I/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/HUB-all-target-headers.hmap -iquote /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/HUB-project-headers.hmap -I/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/DerivedSources/armv7 -I/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/DerivedSources -F/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/Debug-iphoneos -include /var/folders/mf/m7g7cgf53xggwwr2qgjl2kwh0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/BLE_P2P-Prefix-ftyynkgvfngtzafcghyfouzwwjar/BLE_P2P-Prefix.pch -MMD -MT dependencies -MF /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7/main.d --serialize-diagnostics /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7/main.dia -c /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/BLE_P2P/main.m -o /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7/main.o36"C804009C-36FE-43B4-BB6A-B7F8207900E9-
+
+CCompileC build/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7s/AJNotificationView.o /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/BLE_P2P/AJNotificationView/AJNotificationView.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s381235953.502676
+e381235953.822361
+r1
+xCompileC
+xbuild/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7s/AJNotificationView.o
+x/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/BLE_P2P/AJNotificationView/AJNotificationView.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection110"Compile /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/BLE_P2P/AJNotificationView/AJNotificationView.m9cdb80f132b9b641^b686d2f132b9b641^---0#0#0#-19%DVTDocumentLocation2@130"file://localhost/Users/ySekikawa/Dropbox/iOS6%E5%9F%B7%E7%AD%86/samples/08/BLE_P2P/BLE_P2P/AJNotificationView/AJNotificationView.m0000000000000000^3508"CompileC build/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7s/AJNotificationView.o BLE_P2P/AJNotificationView/AJNotificationView.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=6.0 -iquote /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/HUB-generated-files.hmap -I/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/HUB-own-target-headers.hmap -I/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/HUB-all-target-headers.hmap -iquote /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/HUB-project-headers.hmap -I/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/DerivedSources/armv7s -I/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/DerivedSources -F/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/Debug-iphoneos -include /var/folders/mf/m7g7cgf53xggwwr2qgjl2kwh0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/BLE_P2P-Prefix-fzgdqtasfoehxjdiftgbdvufmhty/BLE_P2P-Prefix.pch -MMD -MT dependencies -MF /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7s/AJNotificationView.d --serialize-diagnostics /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7s/AJNotificationView.dia -c /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/BLE_P2P/AJNotificationView/AJNotificationView.m -o /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7s/AJNotificationView.o36"05F4D1EF-C8F4-4DBD-9423-47525956AA90-
+
+CCompileC build/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7s/AppDelegate.o /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/BLE_P2P/AppDelegate.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s381235952.821790
+e381235952.955289
+r1
+xCompileC
+xbuild/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7s/AppDelegate.o
+x/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/BLE_P2P/AppDelegate.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Compile /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/BLE_P2P/AppDelegate.m938ed2f032b9b641^f88cf4f032b9b641^---0#0#0#-19%DVTDocumentLocation2@104"file://localhost/Users/ySekikawa/Dropbox/iOS6%E5%9F%B7%E7%AD%86/samples/08/BLE_P2P/BLE_P2P/AppDelegate.m0000000000000000^3428"CompileC build/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7s/AppDelegate.o BLE_P2P/AppDelegate.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=6.0 -iquote /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/HUB-generated-files.hmap -I/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/HUB-own-target-headers.hmap -I/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/HUB-all-target-headers.hmap -iquote /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/HUB-project-headers.hmap -I/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/DerivedSources/armv7s -I/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/DerivedSources -F/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/Debug-iphoneos -include /var/folders/mf/m7g7cgf53xggwwr2qgjl2kwh0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/BLE_P2P-Prefix-fzgdqtasfoehxjdiftgbdvufmhty/BLE_P2P-Prefix.pch -MMD -MT dependencies -MF /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7s/AppDelegate.d --serialize-diagnostics /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7s/AppDelegate.dia -c /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/BLE_P2P/AppDelegate.m -o /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7s/AppDelegate.o36"503D8677-43F2-40D1-8764-3FCFEF46CD6E-
+
+CCompileC build/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7s/CBAdvertizer.o /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/BLE_P2P/core/CBAdvertizer.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s385034667.302509
+e385034667.436630
+r1
+xCompileC
+xbuild/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7s/CBAdvertizer.o
+x/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/BLE_P2P/core/CBAdvertizer.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compile /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/BLE_P2P/core/CBAdvertizer.m3e934dab29f3b641^15c96fab29f3b641^---0#0#0#-19%DVTDocumentLocation2@110"file://localhost/Users/ySekikawa/Dropbox/iOS6%E5%9F%B7%E7%AD%86/samples/08/BLE_P2P/BLE_P2P/core/CBAdvertizer.m0000000000000000^3444"CompileC build/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7s/CBAdvertizer.o BLE_P2P/core/CBAdvertizer.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=6.0 -iquote /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/HUB-generated-files.hmap -I/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/HUB-own-target-headers.hmap -I/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/HUB-all-target-headers.hmap -iquote /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/HUB-project-headers.hmap -I/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/DerivedSources/armv7s -I/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/DerivedSources -F/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/Debug-iphoneos -include /var/folders/mf/m7g7cgf53xggwwr2qgjl2kwh0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/BLE_P2P-Prefix-fzgdqtasfoehxjdiftgbdvufmhty/BLE_P2P-Prefix.pch -MMD -MT dependencies -MF /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7s/CBAdvertizer.d --serialize-diagnostics /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7s/CBAdvertizer.dia -c /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/BLE_P2P/core/CBAdvertizer.m -o /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7s/CBAdvertizer.o36"41B75026-43C9-42C3-99BE-01154159A2B8-
+
+CCompileC build/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7s/CBScanner.o /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/BLE_P2P/core/CBScanner.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s385034635.205885
+e385034635.951266
+r1
+xCompileC
+xbuild/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7s/CBScanner.o
+x/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/BLE_P2P/core/CBScanner.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Compile /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/BLE_P2P/core/CBScanner.m315b368b29f3b641^d979f38b29f3b641^---0#0#0#-19%DVTDocumentLocation2@107"file://localhost/Users/ySekikawa/Dropbox/iOS6%E5%9F%B7%E7%AD%86/samples/08/BLE_P2P/BLE_P2P/core/CBScanner.m0000000000000000^3426"CompileC build/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7s/CBScanner.o BLE_P2P/core/CBScanner.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=6.0 -iquote /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/HUB-generated-files.hmap -I/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/HUB-own-target-headers.hmap -I/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/HUB-all-target-headers.hmap -iquote /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/HUB-project-headers.hmap -I/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/DerivedSources/armv7s -I/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/DerivedSources -F/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/Debug-iphoneos -include /var/folders/mf/m7g7cgf53xggwwr2qgjl2kwh0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/BLE_P2P-Prefix-fzgdqtasfoehxjdiftgbdvufmhty/BLE_P2P-Prefix.pch -MMD -MT dependencies -MF /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7s/CBScanner.d --serialize-diagnostics /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7s/CBScanner.dia -c /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/BLE_P2P/core/CBScanner.m -o /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7s/CBScanner.o36"721BC795-7609-4984-B2CB-784EB1C6F293-
+
+CCompileC build/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7s/CBUUID+Hepler.o /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/BLE_P2P/core/CBUUID+Hepler.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s381235953.413188
+e381235953.501343
+r1
+xCompileC
+xbuild/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7s/CBUUID+Hepler.o
+x/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/BLE_P2P/core/CBUUID+Hepler.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Compile /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/BLE_P2P/core/CBUUID+Hepler.m4ef069f132b9b641^bc5880f132b9b641^---0#0#0#-19%DVTDocumentLocation2@111"file://localhost/Users/ySekikawa/Dropbox/iOS6%E5%9F%B7%E7%AD%86/samples/08/BLE_P2P/BLE_P2P/core/CBUUID+Hepler.m0000000000000000^3450"CompileC build/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7s/CBUUID+Hepler.o BLE_P2P/core/CBUUID+Hepler.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=6.0 -iquote /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/HUB-generated-files.hmap -I/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/HUB-own-target-headers.hmap -I/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/HUB-all-target-headers.hmap -iquote /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/HUB-project-headers.hmap -I/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/DerivedSources/armv7s -I/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/DerivedSources -F/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/Debug-iphoneos -include /var/folders/mf/m7g7cgf53xggwwr2qgjl2kwh0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/BLE_P2P-Prefix-fzgdqtasfoehxjdiftgbdvufmhty/BLE_P2P-Prefix.pch -MMD -MT dependencies -MF /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7s/CBUUID+Hepler.d --serialize-diagnostics /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7s/CBUUID+Hepler.dia -c /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/BLE_P2P/core/CBUUID+Hepler.m -o /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7s/CBUUID+Hepler.o36"103FBEC3-DB50-4CA1-B033-9E5C4F7BF784-
+
+CCompileC build/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7s/HIDManager.o /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/BLE_P2P/Private/HIDManager.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s381235953.650849
+e381235953.778066
+r1
+xCompileC
+xbuild/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7s/HIDManager.o
+x/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/BLE_P2P/Private/HIDManager.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Compile /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/BLE_P2P/Private/HIDManager.mf0c2a6f132b9b641^da3bc7f132b9b641^---0#0#0#-19%DVTDocumentLocation2@111"file://localhost/Users/ySekikawa/Dropbox/iOS6%E5%9F%B7%E7%AD%86/samples/08/BLE_P2P/BLE_P2P/Private/HIDManager.m0000000000000000^3438"CompileC build/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7s/HIDManager.o BLE_P2P/Private/HIDManager.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=6.0 -iquote /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/HUB-generated-files.hmap -I/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/HUB-own-target-headers.hmap -I/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/HUB-all-target-headers.hmap -iquote /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/HUB-project-headers.hmap -I/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/DerivedSources/armv7s -I/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/DerivedSources -F/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/Debug-iphoneos -include /var/folders/mf/m7g7cgf53xggwwr2qgjl2kwh0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/BLE_P2P-Prefix-fzgdqtasfoehxjdiftgbdvufmhty/BLE_P2P-Prefix.pch -MMD -MT dependencies -MF /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7s/HIDManager.d --serialize-diagnostics /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7s/HIDManager.dia -c /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/BLE_P2P/Private/HIDManager.m -o /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7s/HIDManager.o36"66D889A0-28A9-4C12-A1DC-06CF7C950D3E-
+
+CCompileC build/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7s/ViewController.o /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/BLE_P2P/ViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s385034667.312035
+e385034667.610896
+r1
+xCompileC
+xbuild/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7s/ViewController.o
+x/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/BLE_P2P/ViewController.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Compile /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/BLE_P2P/ViewController.m2c0d50ab29f3b641^62659cab29f3b641^---0#0#0#-19%DVTDocumentLocation2@107"file://localhost/Users/ySekikawa/Dropbox/iOS6%E5%9F%B7%E7%AD%86/samples/08/BLE_P2P/BLE_P2P/ViewController.m0000000000000000^3446"CompileC build/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7s/ViewController.o BLE_P2P/ViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=6.0 -iquote /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/HUB-generated-files.hmap -I/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/HUB-own-target-headers.hmap -I/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/HUB-all-target-headers.hmap -iquote /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/HUB-project-headers.hmap -I/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/DerivedSources/armv7s -I/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/DerivedSources -F/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/Debug-iphoneos -include /var/folders/mf/m7g7cgf53xggwwr2qgjl2kwh0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/BLE_P2P-Prefix-fzgdqtasfoehxjdiftgbdvufmhty/BLE_P2P-Prefix.pch -MMD -MT dependencies -MF /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7s/ViewController.d --serialize-diagnostics /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7s/ViewController.dia -c /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/BLE_P2P/ViewController.m -o /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7s/ViewController.o36"E8DD77F3-6B5B-46DF-80F6-A76685415E76-
+
+CCompileC build/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7s/main.o /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/BLE_P2P/main.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s381235952.821798
+e381235952.880709
+r1
+xCompileC
+xbuild/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7s/main.o
+x/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/BLE_P2P/main.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/BLE_P2P/main.m718ed2f032b9b641^3486e1f032b9b641^---0#0#0#-19%DVTDocumentLocation2@97"file://localhost/Users/ySekikawa/Dropbox/iOS6%E5%9F%B7%E7%AD%86/samples/08/BLE_P2P/BLE_P2P/main.m0000000000000000^3386"CompileC build/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7s/main.o BLE_P2P/main.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=6.0 -iquote /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/HUB-generated-files.hmap -I/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/HUB-own-target-headers.hmap -I/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/HUB-all-target-headers.hmap -iquote /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/HUB-project-headers.hmap -I/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/DerivedSources/armv7s -I/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/DerivedSources -F/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/Debug-iphoneos -include /var/folders/mf/m7g7cgf53xggwwr2qgjl2kwh0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/BLE_P2P-Prefix-fzgdqtasfoehxjdiftgbdvufmhty/BLE_P2P-Prefix.pch -MMD -MT dependencies -MF /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7s/main.d --serialize-diagnostics /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7s/main.dia -c /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/BLE_P2P/main.m -o /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7s/main.o36"982CB8A8-A666-48E7-9E50-F10326D03BFF-
+
+CCompileStoryboard /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/BLE_P2P/en.lproj/MainStoryboard.storyboard
+s381235953.968682
+e381235954.315228
+r1
+xCompileStoryboard
+x/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/BLE_P2P/en.lproj/MainStoryboard.storyboard
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"CompileStoryboard BLE_P2P/en.lproj/MainStoryboard.storyboard4d15f8f132b9b641^a7b250f232b9b641^---0#0#0#-19%DVTDocumentLocation2@125"file://localhost/Users/ySekikawa/Dropbox/iOS6%E5%9F%B7%E7%AD%86/samples/08/BLE_P2P/BLE_P2P/en.lproj/MainStoryboard.storyboard0000000000000000^915"CompileStoryboard BLE_P2P/en.lproj/MainStoryboard.storyboard    cd /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P    setenv IBSC_MINIMUM_COMPATIBILITY_VERSION 6.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/Debug-iphoneos/HUB.app/en.lproj/MainStoryboard.storyboardc /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/BLE_P2P/en.lproj/MainStoryboard.storyboard --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk36"292EE67A-55E2-4B06-9B2D-14E6D4203DC4-
+
+CCopyPNGFile /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/Debug-iphoneos/HUB.app/Default-568h@2x.png BLE_P2P/Default-568h@2x.png
+s381235953.963780
+e381235954.194050
+r1
+xCopyPNGFile
+x/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/Debug-iphoneos/HUB.app/Default-568h@2x.png
+xBLE_P2P/Default-568h@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"CopyPNGFile build/Debug-iphoneos/HUB.app/Default-568h@2x.png BLE_P2P/Default-568h@2x.pngddd2f6f132b9b641^9fab31f232b9b641^---0#0#0#-19%DVTDocumentLocation2@110"file://localhost/Users/ySekikawa/Dropbox/iOS6%E5%9F%B7%E7%AD%86/samples/08/BLE_P2P/BLE_P2P/Default-568h@2x.png0000000000000000^648"CopyPNGFile "build/Debug-iphoneos/HUB.app/Default-568h@2x.png" "BLE_P2P/Default-568h@2x.png"    cd /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/BLE_P2P/Default-568h@2x.png" "/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/Debug-iphoneos/HUB.app/Default-568h@2x.png"36"43B7F69D-8850-45AF-B61D-E99EC6300DA1-
+
+CCopyPNGFile /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/Debug-iphoneos/HUB.app/Default.png BLE_P2P/Default.png
+s381235953.963300
+e381235954.102332
+r1
+xCopyPNGFile
+x/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/Debug-iphoneos/HUB.app/Default.png
+xBLE_P2P/Default.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"CopyPNGFile build/Debug-iphoneos/HUB.app/Default.png BLE_P2P/Default.png25b3f6f132b9b641^3a3e1af232b9b641^---0#0#0#-19%DVTDocumentLocation2@102"file://localhost/Users/ySekikawa/Dropbox/iOS6%E5%9F%B7%E7%AD%86/samples/08/BLE_P2P/BLE_P2P/Default.png0000000000000000^608"CopyPNGFile build/Debug-iphoneos/HUB.app/Default.png BLE_P2P/Default.png    cd /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/BLE_P2P/Default.png /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/Debug-iphoneos/HUB.app/Default.png36"7AFE5FA3-E67C-474B-B50E-9AF95AD0E8E1-
+
+CCopyPNGFile /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/Debug-iphoneos/HUB.app/Default@2x.png BLE_P2P/Default@2x.png
+s381235953.963631
+e381235954.161342
+r1
+xCopyPNGFile
+x/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/Debug-iphoneos/HUB.app/Default@2x.png
+xBLE_P2P/Default@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"CopyPNGFile build/Debug-iphoneos/HUB.app/Default@2x.png BLE_P2P/Default@2x.png6dc9f6f132b9b641^7a5329f232b9b641^---0#0#0#-19%DVTDocumentLocation2@105"file://localhost/Users/ySekikawa/Dropbox/iOS6%E5%9F%B7%E7%AD%86/samples/08/BLE_P2P/BLE_P2P/Default@2x.png0000000000000000^628"CopyPNGFile "build/Debug-iphoneos/HUB.app/Default@2x.png" "BLE_P2P/Default@2x.png"    cd /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/BLE_P2P/Default@2x.png" "/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/Debug-iphoneos/HUB.app/Default@2x.png"36"92FC1F28-3871-4F5E-AC89-CCDF2267EC7A-
+
+CCopyPNGFile /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/Debug-iphoneos/HUB.app/icon_114.png icon_114.png
+s381235954.103614
+e381235954.189878
+r1
+xCopyPNGFile
+x/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/Debug-iphoneos/HUB.app/icon_114.png
+xicon_114.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"CopyPNGFile build/Debug-iphoneos/HUB.app/icon_114.png icon_114.png55a01af232b9b641^849f30f232b9b641^---0#0#0#-19%DVTDocumentLocation2@95"file://localhost/Users/ySekikawa/Dropbox/iOS6%E5%9F%B7%E7%AD%86/samples/08/BLE_P2P/icon_114.png0000000000000000^596"CopyPNGFile build/Debug-iphoneos/HUB.app/icon_114.png icon_114.png    cd /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/icon_114.png /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/Debug-iphoneos/HUB.app/icon_114.png36"91394BD4-1751-4529-A6D1-4B6F0262F02E-
+
+CCopyPNGFile /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/Debug-iphoneos/HUB.app/icon_57.png icon_57.png
+s381235954.162641
+e381235954.217903
+r1
+xCopyPNGFile
+x/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/Debug-iphoneos/HUB.app/icon_57.png
+xicon_57.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"CopyPNGFile build/Debug-iphoneos/HUB.app/icon_57.png icon_57.pngb2ba29f232b9b641^19c837f232b9b641^---0#0#0#-19%DVTDocumentLocation2@94"file://localhost/Users/ySekikawa/Dropbox/iOS6%E5%9F%B7%E7%AD%86/samples/08/BLE_P2P/icon_57.png0000000000000000^592"CopyPNGFile build/Debug-iphoneos/HUB.app/icon_57.png icon_57.png    cd /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/icon_57.png /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/Debug-iphoneos/HUB.app/icon_57.png36"E452D771-01FC-4053-8164-E4D60445BAC7-
+
+CCopyStringsFile /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/Debug-iphoneos/HUB.app/en.lproj/InfoPlist.strings BLE_P2P/en.lproj/InfoPlist.strings
+s381235953.963266
+e381235953.967184
+r1
+xCopyStringsFile
+x/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/Debug-iphoneos/HUB.app/en.lproj/InfoPlist.strings
+xBLE_P2P/en.lproj/InfoPlist.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection39"Copy BLE_P2P/en.lproj/InfoPlist.stringsbfbaf6f132b9b641^3d99f7f132b9b641^---0#0#0#-19%DVTDocumentLocation2@117"file://localhost/Users/ySekikawa/Dropbox/iOS6%E5%9F%B7%E7%AD%86/samples/08/BLE_P2P/BLE_P2P/en.lproj/InfoPlist.strings0000000000000000^578"CopyStringsFile build/Debug-iphoneos/HUB.app/en.lproj/InfoPlist.strings BLE_P2P/en.lproj/InfoPlist.strings    cd /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/Debug-iphoneos/HUB.app/en.lproj -- BLE_P2P/en.lproj/InfoPlist.strings36"82526052-6A99-41C0-8F99-7FE732BF5103-
+
+CCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/ResourceRules.plist build/Debug-iphoneos/HUB.app/ResourceRules.plist
+s381235952.348195
+e381235952.360870
+r1
+xCpResource
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/ResourceRules.plist
+xbuild/Debug-iphoneos/HUB.app/ResourceRules.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection53"Copy build/Debug-iphoneos/HUB.app/ResourceRules.plist4ed159f032b9b641^70275df032b9b641^---0#0#0#-19%DVTDocumentLocation2@131"file://localhost/Users/ySekikawa/Dropbox/iOS6%E5%9F%B7%E7%AD%86/samples/08/BLE_P2P/build/Debug-iphoneos/HUB.app/ResourceRules.plist000000000080d041^750"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/ResourceRules.plist build/Debug-iphoneos/HUB.app/ResourceRules.plist    cd /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/ResourceRules.plist /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/Debug-iphoneos/HUB.app36"C5D9AB1E-141D-42B2-AEF0-92FF43E5650F-
+
+CCreateUniversalBinary /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/Debug-iphoneos/HUB.app/HUB normal "armv7 armv7s"
+s385034667.698315
+e385034667.708532
+r1
+xCreateUniversalBinary
+x/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/Debug-iphoneos/HUB.app/HUB
+xnormal
+xarmv7 armv7s
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection111"Create universal binary /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/Debug-iphoneos/HUB.app/HUBf4dcb2ab29f3b641^f661b5ab29f3b641^---0#0#0#-19%DVTDocumentLocation2@115"file://localhost/Users/ySekikawa/Dropbox/iOS6%E5%9F%B7%E7%AD%86/samples/08/BLE_P2P/build/Debug-iphoneos/HUB.app/HUB0000000000000000^691"CreateUniversalBinary build/Debug-iphoneos/HUB.app/HUB normal "armv7 armv7s"    cd /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    lipo -create /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7/HUB /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7s/HUB -output /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/Debug-iphoneos/HUB.app/HUB36"6F65810B-F542-4FD2-A179-1586805F10FF-
+
+CGenerateDSYMFile /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/Debug-iphoneos/HUB.app.dSYM /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/Debug-iphoneos/HUB.app/HUB
+s385034667.715188
+e385034667.763413
+r1
+xGenerateDSYMFile
+x/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/Debug-iphoneos/HUB.app.dSYM
+x/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/Debug-iphoneos/HUB.app/HUB
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"Generate /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/Debug-iphoneos/HUB.app.dSYM7025b7ab29f3b641^d66ec3ab29f3b641^---0#0#0#-19%DVTDocumentLocation2@117"file://localhost/Users/ySekikawa/Dropbox/iOS6%E5%9F%B7%E7%AD%86/samples/08/BLE_P2P/build/Debug-iphoneos/HUB.app.dSYM/0000000000000000^614"GenerateDSYMFile build/Debug-iphoneos/HUB.app.dSYM build/Debug-iphoneos/HUB.app/HUB    cd /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/Debug-iphoneos/HUB.app/HUB -o /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/Debug-iphoneos/HUB.app.dSYM36"4D7F4434-6C17-400F-B276-3D21768ED44C-
+
+CLd /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7/HUB normal armv7
+s385034667.614273
+e385034667.691359
+r1
+xLd
+x/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7/HUB
+xnormal
+xarmv7
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection129"Link /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7/HUB53ce9fab29f3b641^44fbb0ab29f3b641^---0#0#0#--1281"Ld build/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7/HUB normal armv7    cd /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P    setenv IPHONEOS_DEPLOYMENT_TARGET 6.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -L/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/Debug-iphoneos -F/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/Debug-iphoneos -filelist /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7/HUB.LinkFileList -dead_strip -fobjc-arc -fobjc-link-runtime -miphoneos-version-min=6.0 -framework AVFoundation -framework MediaPlayer -framework AudioToolbox -framework CFNetwork -framework CoreBluetooth -framework UIKit -framework Foundation -framework CoreGraphics -o /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7/HUB36"0182EF4F-D8A9-4B45-8685-03724254E361-
+
+CLd /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7s/HUB normal armv7s
+s385034667.622996
+e385034667.687196
+r1
+xLd
+x/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7s/HUB
+xnormal
+xarmv7s
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection130"Link /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7s/HUB40bf9fab29f3b641^25ecafab29f3b641^---0#0#0#--1286"Ld build/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7s/HUB normal armv7s    cd /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P    setenv IPHONEOS_DEPLOYMENT_TARGET 6.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7s -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -L/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/Debug-iphoneos -F/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/Debug-iphoneos -filelist /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7s/HUB.LinkFileList -dead_strip -fobjc-arc -fobjc-link-runtime -miphoneos-version-min=6.0 -framework AVFoundation -framework MediaPlayer -framework AudioToolbox -framework CFNetwork -framework CoreBluetooth -framework UIKit -framework Foundation -framework CoreGraphics -o /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7s/HUB36"2A6AA23A-CC19-492B-8213-59620F66E017-
+
+CPhaseScriptExecution "Run Script" /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/Script-6B634DA916F3298400F8C398.sh
+s385034667.780844
+e385034667.799761
+r1
+xPhaseScriptExecution
+xRun Script
+x/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/Script-6B634DA916F3298400F8C398.sh
+o/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/Script-6B634DA916F3298400F8C398.sh: line 2: ySekikawa:iOS6執筆: command not found
+o/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/Script-6B634DA916F3298400F8C398.sh: line 3: fg: no job control
+o%%%{PBXSelection}%%%
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection36"Run custom shell script 'Run Script'cdc8c8ab29f3b641^e4bbccab29f3b641^-368"/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/Script-6B634DA916F3298400F8C398.sh: line 2: ySekikawa:iOS6執筆: command not found/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/Script-6B634DA916F3298400F8C398.sh: line 3: fg: no job control%%%{PBXSelection}%%%3(21%IDEActivityLogMessage2@184"/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/Script-6B634DA916F3298400F8C398.sh: line 2: ySekikawa:iOS6執筆: command not found-385034667#0#176#-0#-----2@163"/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/Script-6B634DA916F3298400F8C398.sh: line 3: fg: no job control-385034667#176#159#-0#-----2@21"%%%{PBXSelection}%%%-385034667#335#21#-0#-----0#0#0#--20830"PhaseScriptExecution "Run Script" build/BLE_P2P.build/Debug-iphoneos/HUB.build/Script-6B634DA916F3298400F8C398.sh    cd /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P    setenv ACTION build    setenv AD_HOC_CODE_SIGNING_ALLOWED NO    setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER ysekikawa    setenv ALWAYS_SEARCH_USER_PATHS NO    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS "armv7 armv7s"    setenv ARCHS_STANDARD_32_64_BIT "armv7 armv7s"    setenv ARCHS_STANDARD_32_BIT "armv7 armv7s"    setenv ARCHS_UNIVERSAL_IPHONE_OS "armv7 armv7s"    setenv AVAILABLE_PLATFORMS "iphonesimulator macosx iphoneos"    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build    setenv BUILD_ROOT /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build    setenv BUILD_STYLE     setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/Debug-iphoneos    setenv CACHE_ROOT /var/folders/mf/m7g7cgf53xggwwr2qgjl2kwh0000gp/C/com.apple.Xcode.502    setenv CCHROOT /var/folders/mf/m7g7cgf53xggwwr2qgjl2kwh0000gp/C/com.apple.Xcode.502    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLANG_CXX_LANGUAGE_STANDARD gnu++0x    setenv CLANG_CXX_LIBRARY libc++    setenv CLANG_ENABLE_OBJC_ARC YES    setenv CLANG_WARN_EMPTY_BODY YES    setenv CLANG_WARN__DUPLICATE_METHOD_MATCH YES    setenv CLASS_FILE_DIR /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/JavaClasses    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/Debug-iphoneos/HUB.app    setenv CODE_SIGNING_ALLOWED YES    setenv CODE_SIGNING_REQUIRED YES    setenv CODE_SIGN_CONTEXT_CLASS XCiPhoneOSCodeSignContext    setenv CODE_SIGN_IDENTITY "iPhone Developer"    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/mf/m7g7cgf53xggwwr2qgjl2kwh0000gp/C/com.apple.Xcode.502/CompositeSDKs    setenv COMPRESS_PNG_FILES YES    setenv CONFIGURATION Debug    setenv CONFIGURATION_BUILD_DIR /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/Debug-iphoneos    setenv CONFIGURATION_TEMP_DIR /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos    setenv CONTENTS_FOLDER_PATH HUB.app    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP NO    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CP /bin/cp    setenv CURRENT_ARCH armv7s    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING YES    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf-with-dsym    setenv DEFAULT_COMPILER com.apple.compilers.llvm.clang.1_0    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/DerivedSources    setenv DERIVED_FILE_DIR /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/DerivedSources    setenv DERIVED_SOURCES_DIR /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/DerivedSources    setenv DEVELOPER_APPLICATIONS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv DEVELOPER_DIR /Applications/Xcode.app/Contents/Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Applications/Xcode.app/Contents/Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED "\"/Applications/Xcode.app/Contents/Developer/Library/Frameworks\""    setenv DEVELOPER_LIBRARY_DIR /Applications/Xcode.app/Contents/Developer/Library    setenv DEVELOPER_SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Applications/Xcode.app/Contents/Developer/Tools    setenv DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH HUB.app/English.lproj/Documentation    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/BLE_P2P.dst    setenv DT_TOOLCHAIN_DIR /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain    setenv DWARF_DSYM_FILE_NAME HUB.app.dSYM    setenv DWARF_DSYM_FILE_SHOULD_ACCOMPANY_PRODUCT NO    setenv DWARF_DSYM_FOLDER_PATH /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/Debug-iphoneos    setenv EFFECTIVE_PLATFORM_NAME -iphoneos    setenv EMBEDDED_PROFILE_NAME embedded.mobileprovision    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv ENTITLEMENTS_ALLOWED YES    setenv ENTITLEMENTS_REQUIRED YES    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".DS_Store .svn .git .hg CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH HUB.app/Executables    setenv EXECUTABLE_FOLDER_PATH HUB.app    setenv EXECUTABLE_NAME HUB    setenv EXECUTABLE_PATH HUB.app/HUB    setenv FILE_LIST /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects/LinkFileList    setenv FIXED_FILES_DIR /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/FixedFiles    setenv FRAMEWORKS_FOLDER_PATH HUB.app/Frameworks    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "\"/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/Debug-iphoneos\" "    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME HUB.app    setenv GCC3_VERSION 3.3    setenv GCC_C_LANGUAGE_STANDARD gnu99    setenv GCC_DYNAMIC_NO_PIC NO    setenv GCC_INLINES_ARE_PRIVATE_EXTERN YES    setenv GCC_OPTIMIZATION_LEVEL 0    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PRECOMPILE_PREFIX_HEADER YES    setenv GCC_PREFIX_HEADER BLE_P2P/BLE_P2P-Prefix.pch    setenv GCC_PREPROCESSOR_DEFINITIONS "DEBUG=1 "    setenv GCC_SYMBOLS_PRIVATE_EXTERN NO    setenv GCC_THUMB_SUPPORT YES    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION com.apple.compilers.llvm.clang.1_0    setenv GCC_WARN_ABOUT_RETURN_TYPE YES    setenv GCC_WARN_UNINITIALIZED_AUTOS YES    setenv GCC_WARN_UNUSED_VARIABLE YES    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE YES    setenv GENERATE_PROFILING_CODE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS "\"/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/Debug-iphoneos/include\"  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE "BLE_P2P copy2-Info.plist"    setenv INFOPLIST_OUTPUT_FORMAT binary    setenv INFOPLIST_PATH HUB.app/Info.plist    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH HUB.app/English.lproj/InfoPlist.strings    setenv INSTALL_DIR /tmp/BLE_P2P.dst/Applications    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER ysekikawa    setenv INSTALL_PATH /Applications    setenv INSTALL_ROOT /tmp/BLE_P2P.dst    setenv IPHONEOS_DEPLOYMENT_TARGET 6.0    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH HUB.app/Java    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/HUB-LinkMap-normal-armv7s.txt    setenv LD_NO_PIE NO    setenv LEGACY_DEVELOPER_DIR /Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer    setenv LEX lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_SEARCH_PATHS "\"/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/Debug-iphoneos\" "    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_armv7 /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7/HUB.LinkFileList    setenv LINK_FILE_LIST_normal_armv7s /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal/armv7s/HUB.LinkFileList    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCALIZED_RESOURCES_FOLDER_PATH HUB.app/English.lproj    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_execute    setenv MAC_OS_X_PRODUCT_BUILD_VERSION 12C60    setenv MAC_OS_X_VERSION_ACTUAL 1082    setenv MAC_OS_X_VERSION_MAJOR 1080    setenv MAC_OS_X_VERSION_MINOR 0802    setenv NATIVE_ARCH armv7    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJECT_FILE_DIR /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects    setenv OBJECT_FILE_DIR_normal /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/Objects-normal    setenv OBJROOT /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build    setenv ONLY_ACTIVE_ARCH NO    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv PACKAGE_TYPE com.apple.package-type.wrapper.application    setenv PASCAL_STRINGS YES    setenv PATH "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Tools:/usr/bin:/bin:/usr/sbin:/sbin"    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Applications/Xcode.app/Contents/Developer/Headers /Applications/Xcode.app/Contents/Developer/SDKs /Applications/Xcode.app/Contents/Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH HUB.app/pbdevelopment.plist    setenv PFE_FILE_C_DIALECTS objective-c    setenv PKGINFO_FILE_PATH /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/PkgInfo    setenv PKGINFO_PATH HUB.app/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr    setenv PLATFORM_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform    setenv PLATFORM_NAME iphoneos    setenv PLATFORM_PREFERRED_ARCH armv7    setenv PLATFORM_PRODUCT_BUILD_VERSION 10B141    setenv PLIST_FILE_OUTPUT_FORMAT binary    setenv PLUGINS_FOLDER_PATH HUB.app/PlugIns    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/PrefixHeaders    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH HUB.app/PrivateHeaders    setenv PRODUCT_NAME HUB    setenv PRODUCT_SETTINGS_PATH "/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/BLE_P2P copy2-Info.plist"    setenv PRODUCT_TYPE com.apple.product-type.application    setenv PROFILING_CODE NO    setenv PROJECT BLE_P2P    setenv PROJECT_DERIVED_FILE_DIR /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/DerivedSources    setenv PROJECT_DIR /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P    setenv PROJECT_FILE_PATH /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/BLE_P2P.xcodeproj    setenv PROJECT_NAME BLE_P2P    setenv PROJECT_TEMP_DIR /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build    setenv PROJECT_TEMP_ROOT /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build    setenv PROVISIONING_PROFILE_REQUIRED YES    setenv PUBLIC_HEADERS_FOLDER_PATH HUB.app/Headers    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_GIT_FROM_RESOURCES YES    setenv REMOVE_HG_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv RESOURCE_RULES_REQUIRED YES    setenv REZ_COLLECTOR_DIR /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/ResourceManagerResources    setenv REZ_OBJECTS_DIR /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/ResourceManagerResources/Objects    setenv REZ_SEARCH_PATHS "\"/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/Debug-iphoneos\" "    setenv RUN_CLANG_STATIC_ANALYZER NO    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH HUB.app/Scripts    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk    setenv SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk    setenv SDK_NAME iphoneos6.1    setenv SDK_PRODUCT_BUILD_VERSION 10B141    setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHALLOW_BUNDLE YES    setenv SHARED_DERIVED_FILE_DIR /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/Debug-iphoneos/DerivedSources    setenv SHARED_FRAMEWORKS_FOLDER_PATH HUB.app/SharedFrameworks    setenv SHARED_PRECOMPS_DIR /var/folders/mf/m7g7cgf53xggwwr2qgjl2kwh0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH HUB.app/SharedSupport    setenv SKIP_INSTALL NO    setenv SOURCE_ROOT /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P    setenv SRCROOT /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P    setenv STRINGS_FILE_OUTPUT_ENCODING binary    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE all    setenv SUPPORTED_DEVICE_FAMILIES "1 2"    setenv SUPPORTED_PLATFORMS "iphonesimulator iphoneos"    setenv SYMROOT /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Applications/Xcode.app/Contents/Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Applications/Xcode.app/Contents/Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Applications/Xcode.app/Contents/Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETED_DEVICE_FAMILY 1    setenv TARGETNAME HUB    setenv TARGET_BUILD_DIR /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/Debug-iphoneos    setenv TARGET_NAME HUB    setenv TARGET_TEMP_DIR /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build    setenv TEMP_DIR /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build    setenv TEMP_FILES_DIR /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build    setenv TEMP_FILE_DIR /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build    setenv TEMP_ROOT /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build    setenv TEST_AFTER_BUILD NO    setenv TOOLCHAINS com.apple.dt.toolchain.XcodeDefault    setenv UID 502    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH HUB.app    setenv UNSTRIPPED_PRODUCT NO    setenv USER ysekikawa    setenv USER_APPS_DIR /Users/ysekikawa/Applications    setenv USER_LIBRARY_DIR /Users/ysekikawa/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALIDATE_PRODUCT YES    setenv VALID_ARCHS "armv7 armv7s"    setenv VERBOSE_PBXCP NO    setenv VERSIONPLIST_PATH HUB.app/version.plist    setenv VERSION_INFO_BUILDER ysekikawa    setenv VERSION_INFO_FILE HUB_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:HUB  PROJECT:BLE_P2P-\""    setenv WRAPPER_EXTENSION app    setenv WRAPPER_NAME HUB.app    setenv WRAPPER_SUFFIX .app    setenv XCODE_APP_SUPPORT_DIR /Applications/Xcode.app/Contents/Developer/Library/Xcode    setenv XCODE_PRODUCT_BUILD_VERSION 4H127    setenv XCODE_VERSION_ACTUAL 0460    setenv XCODE_VERSION_MAJOR 0400    setenv XCODE_VERSION_MINOR 0460    setenv YACC yacc    /bin/sh -c /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/Script-6B634DA916F3298400F8C398.sh36"F0EB0611-F894-4D28-A93C-68BC3898710F-
+
+CProcessInfoPlistFile /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/Debug-iphoneos/HUB.app/Info.plist "BLE_P2P copy2-Info.plist"
+s381235952.350573
+e381235952.364945
+r1
+xProcessInfoPlistFile
+x/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/Debug-iphoneos/HUB.app/Info.plist
+xBLE_P2P copy2-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection32"Process BLE_P2P copy2-Info.plist5ff059f032b9b641^406c5df032b9b641^---0#0#0#-19%DVTDocumentLocation2@109"file://localhost/Users/ySekikawa/Dropbox/iOS6%E5%9F%B7%E7%AD%86/samples/08/BLE_P2P/BLE_P2P%20copy2-Info.plist0000000000000000^774"ProcessInfoPlistFile build/Debug-iphoneos/HUB.app/Info.plist "BLE_P2P copy2-Info.plist"    cd /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility "BLE_P2P copy2-Info.plist" -genpkginfo /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/Debug-iphoneos/HUB.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/Debug-iphoneos/HUB.app/ResourceRules.plist -o /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/Debug-iphoneos/HUB.app/Info.plist36"53BD15FE-A5E6-4923-99FE-241EF1FEA8E1-
+
+CProcessPCH /Users/ysekikawa/Library/Developer/Xcode/DerivedData/BLE_P2P-fmasadgbhqrzrldavchkvdmkzhfs/Index/PrecompiledHeaders/BLE_P2P-Prefix-anvkveooqwmycphchxlrgmtrwgfp_ast/BLE_P2P-Prefix.pch.pth BLE_P2P/BLE_P2P-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/ysekikawa/Library/Developer/Xcode/DerivedData/BLE_P2P-fmasadgbhqrzrldavchkvdmkzhfs/Index/PrecompiledHeaders/BLE_P2P-Prefix-ayoblixspdbrgxbhkeblpjrpbzys_ast/BLE_P2P-Prefix.pch.pth BLE_P2P/BLE_P2P-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /var/folders/mf/m7g7cgf53xggwwr2qgjl2kwh0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/BLE_P2P-Prefix-ftyynkgvfngtzafcghyfouzwwjar/BLE_P2P-Prefix.pch.pth BLE_P2P/BLE_P2P-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s381235952.373234
+e381235952.837075
+r1
+xProcessPCH
+x/var/folders/mf/m7g7cgf53xggwwr2qgjl2kwh0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/BLE_P2P-Prefix-ftyynkgvfngtzafcghyfouzwwjar/BLE_P2P-Prefix.pch.pth
+xBLE_P2P/BLE_P2P-Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Precompile BLE_P2P/BLE_P2P-Prefix.pchb2bc5ff032b9b641^384ad6f032b9b641^---0#0#0#-19%DVTDocumentLocation2@109"file://localhost/Users/ySekikawa/Dropbox/iOS6%E5%9F%B7%E7%AD%86/samples/08/BLE_P2P/BLE_P2P/BLE_P2P-Prefix.pch0000000000000000^3429"ProcessPCH /var/folders/mf/m7g7cgf53xggwwr2qgjl2kwh0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/BLE_P2P-Prefix-ftyynkgvfngtzafcghyfouzwwjar/BLE_P2P-Prefix.pch.pth BLE_P2P/BLE_P2P-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=6.0 -iquote /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/HUB-generated-files.hmap -I/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/HUB-own-target-headers.hmap -I/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/HUB-all-target-headers.hmap -iquote /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/HUB-project-headers.hmap -I/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/DerivedSources/armv7 -I/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/DerivedSources -F/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/Debug-iphoneos --serialize-diagnostics /var/folders/mf/m7g7cgf53xggwwr2qgjl2kwh0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/BLE_P2P-Prefix-ftyynkgvfngtzafcghyfouzwwjar/BLE_P2P-Prefix.pch.dia -c /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/BLE_P2P/BLE_P2P-Prefix.pch -o /var/folders/mf/m7g7cgf53xggwwr2qgjl2kwh0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/BLE_P2P-Prefix-ftyynkgvfngtzafcghyfouzwwjar/BLE_P2P-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/mf/m7g7cgf53xggwwr2qgjl2kwh0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/BLE_P2P-Prefix-ftyynkgvfngtzafcghyfouzwwjar/BLE_P2P-Prefix.pch.d36"89FC1E26-46FC-414A-8A19-1C4AE5C6AEA8-
+
+CProcessPCH /var/folders/mf/m7g7cgf53xggwwr2qgjl2kwh0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/BLE_P2P-Prefix-fzgdqtasfoehxjdiftgbdvufmhty/BLE_P2P-Prefix.pch.pth BLE_P2P/BLE_P2P-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s381235952.373383
+e381235952.814775
+r1
+xProcessPCH
+x/var/folders/mf/m7g7cgf53xggwwr2qgjl2kwh0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/BLE_P2P-Prefix-fzgdqtasfoehxjdiftgbdvufmhty/BLE_P2P-Prefix.pch.pth
+xBLE_P2P/BLE_P2P-Prefix.pch
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Precompile BLE_P2P/BLE_P2P-Prefix.pch5abd5ff032b9b641^1895d0f032b9b641^---0#0#0#-19%DVTDocumentLocation2@109"file://localhost/Users/ySekikawa/Dropbox/iOS6%E5%9F%B7%E7%AD%86/samples/08/BLE_P2P/BLE_P2P/BLE_P2P-Prefix.pch0000000000000000^3432"ProcessPCH /var/folders/mf/m7g7cgf53xggwwr2qgjl2kwh0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/BLE_P2P-Prefix-fzgdqtasfoehxjdiftgbdvufmhty/BLE_P2P-Prefix.pch.pth BLE_P2P/BLE_P2P-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7s -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=6.0 -iquote /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/HUB-generated-files.hmap -I/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/HUB-own-target-headers.hmap -I/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/HUB-all-target-headers.hmap -iquote /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/HUB-project-headers.hmap -I/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/DerivedSources/armv7s -I/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/DerivedSources -F/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/Debug-iphoneos --serialize-diagnostics /var/folders/mf/m7g7cgf53xggwwr2qgjl2kwh0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/BLE_P2P-Prefix-fzgdqtasfoehxjdiftgbdvufmhty/BLE_P2P-Prefix.pch.dia -c /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/BLE_P2P/BLE_P2P-Prefix.pch -o /var/folders/mf/m7g7cgf53xggwwr2qgjl2kwh0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/BLE_P2P-Prefix-fzgdqtasfoehxjdiftgbdvufmhty/BLE_P2P-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/mf/m7g7cgf53xggwwr2qgjl2kwh0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/BLE_P2P-Prefix-fzgdqtasfoehxjdiftgbdvufmhty/BLE_P2P-Prefix.pch.d36"F04B315D-26C6-4FFA-905E-47096650C5F7-
+
+CProcessProductPackaging "/Users/ysekikawa/Library/MobileDevice/Provisioning Profiles/BDCF97BA-F4C9-4563-91DE-96CE6C2A4BFF.mobileprovision" /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/Debug-iphoneos/HUB.app/embedded.mobileprovision
+s381235954.334924
+e381235954.339267
+r1
+xProcessProductPackaging
+x/Users/ysekikawa/Library/MobileDevice/Provisioning Profiles/BDCF97BA-F4C9-4563-91DE-96CE6C2A4BFF.mobileprovision
+x/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/Debug-iphoneos/HUB.app/embedded.mobileprovision
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection192"ProcessProductPackaging "/Users/ysekikawa/Library/MobileDevice/Provisioning Profiles/BDCF97BA-F4C9-4563-91DE-96CE6C2A4BFF.mobileprovision" build/Debug-iphoneos/HUB.app/embedded.mobileprovisiond8d855f232b9b641^c5e756f232b9b641^---0#0#0#-19%DVTDocumentLocation2@136"file://localhost/Users/ySekikawa/Dropbox/iOS6%E5%9F%B7%E7%AD%86/samples/08/BLE_P2P/build/Debug-iphoneos/HUB.app/embedded.mobileprovision0000000000000000^706"ProcessProductPackaging "/Users/ysekikawa/Library/MobileDevice/Provisioning Profiles/BDCF97BA-F4C9-4563-91DE-96CE6C2A4BFF.mobileprovision" build/Debug-iphoneos/HUB.app/embedded.mobileprovision    cd /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility "/Users/ysekikawa/Library/MobileDevice/Provisioning Profiles/BDCF97BA-F4C9-4563-91DE-96CE6C2A4BFF.mobileprovision" -o /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/Debug-iphoneos/HUB.app/embedded.mobileprovision36"A08AA81D-6981-4D39-B20F-3AC4B23BB046-
+
+CProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/HUB.xcent
+s381235954.367154
+e381235954.370582
+r1
+xProcessProductPackaging
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist
+x/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/HUB.xcent
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection199"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist build/BLE_P2P.build/Debug-iphoneos/HUB.build/HUB.xcent5c1b5ef232b9b641^e9ee5ef232b9b641^---0#0#0#-19%DVTDocumentLocation2@137"file://localhost/Users/ySekikawa/Dropbox/iOS6%E5%9F%B7%E7%AD%86/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/HUB.xcent000000000080d041^746"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist build/BLE_P2P.build/Debug-iphoneos/HUB.build/HUB.xcent    cd /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist -entitlements -format xml -o /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/BLE_P2P.build/Debug-iphoneos/HUB.build/HUB.xcent36"776A520D-9B96-4E9E-8F11-00CB5050F29A-
+
+CTouch /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/Debug-iphoneos/HUB.app
+s385034667.847949
+e385034667.877366
+r1
+xTouch
+x/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/Debug-iphoneos/HUB.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Touch /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/Debug-iphoneos/HUB.app9412daab29f3b641^ed9ae0ab29f3b641^---0#0#0#--391"Touch build/Debug-iphoneos/HUB.app    cd /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/Debug-iphoneos/HUB.app36"892EE3E2-4A44-45DE-9D38-17A0C4AD6B55-
+
+CValidate /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/Debug-iphoneos/HUB.app
+s385034668.154917
+e385034669.002505
+r1
+xValidate
+x/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/Debug-iphoneos/HUB.app
+owarning: Application failed codesign verification.  The signature was invalid, contains disallowed entitlements, or it was not signed with an iPhone Distribution Certificate. (-19011)
+oExecutable=/Users/ySekikawa/Dropbox/iOS6å·ç­/samples/08/BLE_P2P/build/Debug-iphoneos/HUB.app/HUB
+ocodesign_wrapper-4.1: using Apple CA for profile evaluation
+o/Users/ySekikawa/Dropbox/iOS6å·ç­/samples/08/BLE_P2P/build/Debug-iphoneos/HUB.app: valid on disk
+o/Users/ySekikawa/Dropbox/iOS6å·ç­/samples/08/BLE_P2P/build/Debug-iphoneos/HUB.app: satisfies its Designated Requirement
+otest-requirement: code failed to satisfy specified code requirement(s)
+ocodesign_wrapper-4.1: failed to execute codesign(1)
+o - (null)
+o
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Validate build/Debug-iphoneos/HUB.appbabe27ac29f3b641^2ba400ad29f3b641^-706"warning: Application failed codesign verification.  The signature was invalid, contains disallowed entitlements, or it was not signed with an iPhone Distribution Certificate. (-19011)Executable=/Users/ySekikawa/Dropbox/iOS6å·ç­/samples/08/BLE_P2P/build/Debug-iphoneos/HUB.app/HUBcodesign_wrapper-4.1: using Apple CA for profile evaluation/Users/ySekikawa/Dropbox/iOS6å·ç­/samples/08/BLE_P2P/build/Debug-iphoneos/HUB.app: valid on disk/Users/ySekikawa/Dropbox/iOS6å·ç­/samples/08/BLE_P2P/build/Debug-iphoneos/HUB.app: satisfies its Designated Requirementtest-requirement: code failed to satisfy specified code requirement(s)codesign_wrapper-4.1: failed to execute codesign(1) - (null1(21%IDEActivityLogMessage2@175" Application failed codesign verification.  The signature was invalid, contains disallowed entitlements, or it was not signed with an iPhone Distribution Certificate. (-19011)165"Application failed codesign verification.  The signature was invalid, contains disallowed entitlements, or it was not signed with an iPhone Distribution Certificate.385034669#18446744073709551615#0#-1#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#16"Validate Warning--0#0#0#-19%DVTDocumentLocation4@112"file://localhost/Users/ySekikawa/Dropbox/iOS6%E5%9F%B7%E7%AD%86/samples/08/BLE_P2P/build/Debug-iphoneos/HUB.app/0000000000000000^535"Validate build/Debug-iphoneos/HUB.app    cd /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv PRODUCT_TYPE com.apple.product-type.application    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/Validation /Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLE_P2P/build/Debug-iphoneos/HUB.app36"A05C1672-2D2D-4E05-B7A6-BB1E8209A310-
+

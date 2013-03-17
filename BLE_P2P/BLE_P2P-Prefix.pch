@@ -1,0 +1,50 @@
+//
+// Prefix header for all source files.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#ifdef _TESTFLIGHT
+//#import "TestFlight.h"
+#endif
+#endif
+
+#if TARGET_IPHONE_SIMULATOR
+#import <objc/objc-runtime.h>
+#else
+#import <objc/runtime.h>
+#endif
+
+#include <stdlib.h>
+#include <stdio.h>
+#include <sys/time.h>
+
+#pragma mark - Pramaeters
+
+#define STATUS_BAR_HEIGHT 20
+
+
+#pragma mark - for Debug
+
+#define _DEBUG
+
+#ifdef	_DEBUG
+#define	NSLog(...);	NSLog(__VA_ARGS__);
+#define DNSLogMethod	NSLog(@"[%s] %@", class_getName([self class]), NSStringFromSelector(_cmd));
+#define DNSLogPoint(p)	NSLog(@"%f,%f", p.x, p.y);
+#define DNSLogSize(p)	NSLog(@"%f,%f", p.width, p.height);
+#define DNSLogRect(p)	NSLog(@"%f,%f %f,%f", p.origin.x, p.origin.y, p.size.width, p.size.height);
+#else
+#define NSLog(...);	// NSLog(__VA_ARGS__);
+#define DNSLogMethod	// NSLog(@"[%s] %@", class_getName([self class]), NSStringFromSelector(_cmd) );
+#define DNSLogPoint(p)	// NSLog(@"%f,%f", p.x, p.y);
+#define DNSLogSize(p)	// NSLog(@"%f,%f", p.width, p.height);
+#define DNSLogRect(p)	// NSLog(@"%f,%f %f,%f", p.origin.x, p.origin.y, p.size.width, p.size.height);
+#endif
