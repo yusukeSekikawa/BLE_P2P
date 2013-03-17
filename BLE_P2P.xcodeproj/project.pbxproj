@@ -61,19 +61,16 @@
 		6B245AB4169EF1AF002265DE /* CBAdvertizer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CBAdvertizer.m; sourceTree = "<group>"; };
 		6B245AC7169EFD75002265DE /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		6B245AC9169EFD83002265DE /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
-		6B3B2F4216A5047A00C3F5F4 /* P2P-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "P2P-Info.plist"; path = "/Users/ySekikawa/Dropbox/iOS6執筆/samples/08/BLEHUB/P2P-Info.plist"; sourceTree = "<absolute>"; };
 		6B56A92616A2BD160014F2EC /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		6B88D80416969479003C6C90 /* AJNotificationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AJNotificationView.h; sourceTree = "<group>"; };
 		6B88D80516969479003C6C90 /* AJNotificationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AJNotificationView.m; sourceTree = "<group>"; };
 		6B949C5D1672C5310059578B /* CBUUID+Hepler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CBUUID+Hepler.m"; sourceTree = "<group>"; };
 		6BEAEDCA16B0B9270059A105 /* HUB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HUB.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		6BEAEDCC16B0B9270059A105 /* BLE_P2P copy2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "BLE_P2P copy2-Info.plist"; path = "/Users/ySekikawa/dropbox/iOS6執筆/samples/08/BLE_P2P/BLE_P2P copy2-Info.plist"; sourceTree = "<absolute>"; };
 		6BED74F516958F3100320721 /* icon_114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_114.png; sourceTree = "<group>"; };
 		6BED74F71695906600320721 /* icon_57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_57.png; sourceTree = "<group>"; };
 		6BF1432A16A59E1000EAF0B6 /* GSEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSEvent.h; sourceTree = "<group>"; };
 		6BF1432B16A59E1000EAF0B6 /* HIDManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIDManager.h; sourceTree = "<group>"; };
 		6BF1432C16A59E1000EAF0B6 /* HIDManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HIDManager.m; sourceTree = "<group>"; };
-		6BF1435116A59EE300EAF0B6 /* BLE_P2P copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "BLE_P2P copy-Info.plist"; path = "/Users/ySekikawa/dropbox/iOS6執筆/samples/08/BLE_P2P/BLE_P2P copy-Info.plist"; sourceTree = "<absolute>"; };
 		6BF861071648C61500E6C96E /* BLE_P2P.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BLE_P2P.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BF8610B1648C61500E6C96E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		6BF8610D1648C61500E6C96E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -170,8 +167,6 @@
 				6BF861111648C61500E6C96E /* View */,
 				6BF8610A1648C61500E6C96E /* Frameworks */,
 				6BF861081648C61500E6C96E /* Products */,
-				6BF1435116A59EE300EAF0B6 /* BLE_P2P copy-Info.plist */,
-				6BEAEDCC16B0B9270059A105 /* BLE_P2P copy2-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -216,7 +211,6 @@
 		6BF861121648C61500E6C96E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				6B3B2F4216A5047A00C3F5F4 /* P2P-Info.plist */,
 				6BF861131648C61500E6C96E /* BLE_P2P-Info.plist */,
 				6BF861141648C61500E6C96E /* InfoPlist.strings */,
 				6BF861171648C61500E6C96E /* main.m */,
@@ -413,7 +407,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BLE_P2P/BLE_P2P-Prefix.pch";
-				INFOPLIST_FILE = "BLE_P2P copy2-Info.plist";
+				INFOPLIST_FILE = "BLE_P2P/BLE_P2P-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = HUB;
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
@@ -430,7 +424,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BLE_P2P/BLE_P2P-Prefix.pch";
-				INFOPLIST_FILE = "BLE_P2P copy2-Info.plist";
+				INFOPLIST_FILE = "BLE_P2P/BLE_P2P-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = HUB;
 				PROVISIONING_PROFILE = "";
