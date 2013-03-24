@@ -24,4 +24,5 @@ Supported Sensor Device
 
 
 Part of this Project is sample code for「iPhoneアプリ開発エキスパートガイド　iOS 6対応」
+http://www.amazon.co.jp/iPhoneアプリ開発エキスパートガイド-iOS-6対応-加藤-寛人/dp/4844333852/ref=sr_1_1?s=books&ie=UTF8&qid=1364099948&sr=1-1
 
