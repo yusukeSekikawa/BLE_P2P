@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		6BBF12E416FEB8A100197341 /* InterProcessCommunication.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BBF12DF16FEA71800197341 /* InterProcessCommunication.m */; };
+		6BBF12F316FEC0E800197341 /* screenCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BBF12EF16FEC0E800197341 /* screenCapture.m */; };
+		6BBF12F416FEC0E800197341 /* simpleCameraViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BBF12F216FEC0E800197341 /* simpleCameraViewViewController.m */; };
 		6BEAEDAE16B0B9270059A105 /* CBAdvertizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B245AB4169EF1AF002265DE /* CBAdvertizer.m */; };
 		6BEAEDAF16B0B9270059A105 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF861171648C61500E6C96E /* main.m */; };
 		6BEAEDB016B0B9270059A105 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF8611B1648C61500E6C96E /* AppDelegate.m */; };
@@ -45,6 +47,10 @@
 		6B949C5D1672C5310059578B /* CBUUID+Hepler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CBUUID+Hepler.m"; sourceTree = "<group>"; };
 		6BBF12DE16FEA71800197341 /* InterProcessCommunication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InterProcessCommunication.h; path = BLE_P2P/InterProcessCommunication/InterProcessCommunication.h; sourceTree = "<group>"; };
 		6BBF12DF16FEA71800197341 /* InterProcessCommunication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InterProcessCommunication.m; path = BLE_P2P/InterProcessCommunication/InterProcessCommunication.m; sourceTree = "<group>"; };
+		6BBF12EE16FEC0E800197341 /* screenCapture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = screenCapture.h; sourceTree = "<group>"; };
+		6BBF12EF16FEC0E800197341 /* screenCapture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = screenCapture.m; sourceTree = "<group>"; };
+		6BBF12F116FEC0E800197341 /* simpleCameraViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = simpleCameraViewViewController.h; sourceTree = "<group>"; };
+		6BBF12F216FEC0E800197341 /* simpleCameraViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = simpleCameraViewViewController.m; sourceTree = "<group>"; };
 		6BEAEDCA16B0B9270059A105 /* HUB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HUB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BED74F516958F3100320721 /* icon_114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_114.png; path = ../icon_114.png; sourceTree = "<group>"; };
 		6BED74F71695906600320721 /* icon_57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_57.png; path = ../icon_57.png; sourceTree = "<group>"; };
@@ -110,6 +116,35 @@
 			name = InterProcessCommunication;
 			sourceTree = "<group>";
 		};
+		6BBF12EC16FEC0C600197341 /* Experiment */ = {
+			isa = PBXGroup;
+			children = (
+				6BBF12ED16FEC0E800197341 /* screenCapture */,
+				6BBF12F016FEC0E800197341 /* simpleCameraViewController */,
+			);
+			name = Experiment;
+			sourceTree = "<group>";
+		};
+		6BBF12ED16FEC0E800197341 /* screenCapture */ = {
+			isa = PBXGroup;
+			children = (
+				6BBF12EE16FEC0E800197341 /* screenCapture.h */,
+				6BBF12EF16FEC0E800197341 /* screenCapture.m */,
+			);
+			name = screenCapture;
+			path = BLE_P2P/screenCapture;
+			sourceTree = "<group>";
+		};
+		6BBF12F016FEC0E800197341 /* simpleCameraViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6BBF12F116FEC0E800197341 /* simpleCameraViewViewController.h */,
+				6BBF12F216FEC0E800197341 /* simpleCameraViewViewController.m */,
+			);
+			name = simpleCameraViewController;
+			path = BLE_P2P/simpleCameraViewController;
+			sourceTree = "<group>";
+		};
 		6BF1432916A59E1000EAF0B6 /* Private */ = {
 			isa = PBXGroup;
 			children = (
@@ -124,6 +159,7 @@
 		6BF860FC1648C61400E6C96E = {
 			isa = PBXGroup;
 			children = (
+				6BBF12EC16FEC0C600197341 /* Experiment */,
 				6BBF12E116FEA77F00197341 /* InterProcessCommunication */,
 				6BF1432916A59E1000EAF0B6 /* Private */,
 				6B88D80316969479003C6C90 /* AJNotificationView */,
@@ -296,6 +332,8 @@
 				6BEAEDB316B0B9270059A105 /* CBUUID+Hepler.m in Sources */,
 				6BEAEDB416B0B9270059A105 /* AJNotificationView.m in Sources */,
 				6BEAEDB516B0B9270059A105 /* HIDManager.m in Sources */,
+				6BBF12F316FEC0E800197341 /* screenCapture.m in Sources */,
+				6BBF12F416FEC0E800197341 /* simpleCameraViewViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
