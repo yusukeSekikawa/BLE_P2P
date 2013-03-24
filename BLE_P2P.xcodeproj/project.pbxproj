@@ -119,6 +119,7 @@
 		6BBF12EC16FEC0C600197341 /* Experiment */ = {
 			isa = PBXGroup;
 			children = (
+				6BF1432916A59E1000EAF0B6 /* HIDManager */,
 				6BBF12ED16FEC0E800197341 /* screenCapture */,
 				6BBF12F016FEC0E800197341 /* simpleCameraViewController */,
 			);
@@ -145,14 +146,14 @@
 			path = BLE_P2P/simpleCameraViewController;
 			sourceTree = "<group>";
 		};
-		6BF1432916A59E1000EAF0B6 /* Private */ = {
+		6BF1432916A59E1000EAF0B6 /* HIDManager */ = {
 			isa = PBXGroup;
 			children = (
 				6BF1432A16A59E1000EAF0B6 /* GSEvent.h */,
 				6BF1432B16A59E1000EAF0B6 /* HIDManager.h */,
 				6BF1432C16A59E1000EAF0B6 /* HIDManager.m */,
 			);
-			name = Private;
+			name = HIDManager;
 			path = BLE_P2P/Private;
 			sourceTree = "<group>";
 		};
@@ -161,7 +162,6 @@
 			children = (
 				6BBF12EC16FEC0C600197341 /* Experiment */,
 				6BBF12E116FEA77F00197341 /* InterProcessCommunication */,
-				6BF1432916A59E1000EAF0B6 /* Private */,
 				6B88D80316969479003C6C90 /* AJNotificationView */,
 				6BF8619E1648C81300E6C96E /* BLE */,
 				6BF861111648C61500E6C96E /* View */,
