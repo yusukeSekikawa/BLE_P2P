@@ -7,12 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6B245AB9169EF1EB002265DE /* CBAdvertizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B245AB4169EF1AF002265DE /* CBAdvertizer.m */; };
-		6B245AC8169EFD75002265DE /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B245AC7169EFD75002265DE /* AudioToolbox.framework */; };
-		6B245ACA169EFD83002265DE /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B245AC9169EFD83002265DE /* MediaPlayer.framework */; };
-		6B56A92716A2BD160014F2EC /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B56A92616A2BD160014F2EC /* AVFoundation.framework */; };
-		6B88D80616969479003C6C90 /* AJNotificationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B88D80516969479003C6C90 /* AJNotificationView.m */; };
-		6B949C5E1672C5310059578B /* CBUUID+Hepler.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B949C5D1672C5310059578B /* CBUUID+Hepler.m */; };
+		6BBF12E416FEB8A100197341 /* InterProcessCommunication.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BBF12DF16FEA71800197341 /* InterProcessCommunication.m */; };
 		6BEAEDAE16B0B9270059A105 /* CBAdvertizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B245AB4169EF1AF002265DE /* CBAdvertizer.m */; };
 		6BEAEDAF16B0B9270059A105 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF861171648C61500E6C96E /* main.m */; };
 		6BEAEDB016B0B9270059A105 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF8611B1648C61500E6C96E /* AppDelegate.m */; };
@@ -36,23 +31,6 @@
 		6BEAEDC416B0B9270059A105 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BF861231648C61500E6C96E /* MainStoryboard.storyboard */; };
 		6BEAEDC516B0B9270059A105 /* icon_114.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BED74F516958F3100320721 /* icon_114.png */; };
 		6BEAEDC616B0B9270059A105 /* icon_57.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BED74F71695906600320721 /* icon_57.png */; };
-		6BED74F616958F3100320721 /* icon_114.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BED74F516958F3100320721 /* icon_114.png */; };
-		6BED74F81695906600320721 /* icon_57.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BED74F71695906600320721 /* icon_57.png */; };
-		6BF1432D16A59E1000EAF0B6 /* HIDManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF1432C16A59E1000EAF0B6 /* HIDManager.m */; };
-		6BF8610C1648C61500E6C96E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BF8610B1648C61500E6C96E /* UIKit.framework */; };
-		6BF8610E1648C61500E6C96E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BF8610D1648C61500E6C96E /* Foundation.framework */; };
-		6BF861101648C61500E6C96E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BF8610F1648C61500E6C96E /* CoreGraphics.framework */; };
-		6BF861161648C61500E6C96E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6BF861141648C61500E6C96E /* InfoPlist.strings */; };
-		6BF861181648C61500E6C96E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF861171648C61500E6C96E /* main.m */; };
-		6BF8611C1648C61500E6C96E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF8611B1648C61500E6C96E /* AppDelegate.m */; };
-		6BF8611E1648C61500E6C96E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BF8611D1648C61500E6C96E /* Default.png */; };
-		6BF861201648C61500E6C96E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BF8611F1648C61500E6C96E /* Default@2x.png */; };
-		6BF861221648C61500E6C96E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BF861211648C61500E6C96E /* Default-568h@2x.png */; };
-		6BF861251648C61500E6C96E /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BF861231648C61500E6C96E /* MainStoryboard.storyboard */; };
-		6BF861281648C61500E6C96E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF861271648C61500E6C96E /* ViewController.m */; };
-		6BF8619D1648C77800E6C96E /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BF8619C1648C77800E6C96E /* CoreBluetooth.framework */; };
-		6BF861B11648C81300E6C96E /* CBScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF861A21648C81300E6C96E /* CBScanner.m */; };
-		6BF861C51648CB2E00E6C96E /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BF861C41648CB2E00E6C96E /* CFNetwork.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -65,13 +43,14 @@
 		6B88D80416969479003C6C90 /* AJNotificationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AJNotificationView.h; sourceTree = "<group>"; };
 		6B88D80516969479003C6C90 /* AJNotificationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AJNotificationView.m; sourceTree = "<group>"; };
 		6B949C5D1672C5310059578B /* CBUUID+Hepler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CBUUID+Hepler.m"; sourceTree = "<group>"; };
+		6BBF12DE16FEA71800197341 /* InterProcessCommunication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InterProcessCommunication.h; path = BLE_P2P/InterProcessCommunication/InterProcessCommunication.h; sourceTree = "<group>"; };
+		6BBF12DF16FEA71800197341 /* InterProcessCommunication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InterProcessCommunication.m; path = BLE_P2P/InterProcessCommunication/InterProcessCommunication.m; sourceTree = "<group>"; };
 		6BEAEDCA16B0B9270059A105 /* HUB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HUB.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		6BED74F516958F3100320721 /* icon_114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_114.png; sourceTree = "<group>"; };
-		6BED74F71695906600320721 /* icon_57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_57.png; sourceTree = "<group>"; };
+		6BED74F516958F3100320721 /* icon_114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_114.png; path = ../icon_114.png; sourceTree = "<group>"; };
+		6BED74F71695906600320721 /* icon_57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_57.png; path = ../icon_57.png; sourceTree = "<group>"; };
 		6BF1432A16A59E1000EAF0B6 /* GSEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSEvent.h; sourceTree = "<group>"; };
 		6BF1432B16A59E1000EAF0B6 /* HIDManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIDManager.h; sourceTree = "<group>"; };
 		6BF1432C16A59E1000EAF0B6 /* HIDManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HIDManager.m; sourceTree = "<group>"; };
-		6BF861071648C61500E6C96E /* BLE_P2P.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BLE_P2P.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BF8610B1648C61500E6C96E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		6BF8610D1648C61500E6C96E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6BF8610F1648C61500E6C96E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -109,21 +88,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6BF861041648C61500E6C96E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6B56A92716A2BD160014F2EC /* AVFoundation.framework in Frameworks */,
-				6B245ACA169EFD83002265DE /* MediaPlayer.framework in Frameworks */,
-				6B245AC8169EFD75002265DE /* AudioToolbox.framework in Frameworks */,
-				6BF861C51648CB2E00E6C96E /* CFNetwork.framework in Frameworks */,
-				6BF8619D1648C77800E6C96E /* CoreBluetooth.framework in Frameworks */,
-				6BF8610C1648C61500E6C96E /* UIKit.framework in Frameworks */,
-				6BF8610E1648C61500E6C96E /* Foundation.framework in Frameworks */,
-				6BF861101648C61500E6C96E /* CoreGraphics.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -137,6 +101,15 @@
 			path = BLE_P2P/AJNotificationView;
 			sourceTree = "<group>";
 		};
+		6BBF12E116FEA77F00197341 /* InterProcessCommunication */ = {
+			isa = PBXGroup;
+			children = (
+				6BBF12DE16FEA71800197341 /* InterProcessCommunication.h */,
+				6BBF12DF16FEA71800197341 /* InterProcessCommunication.m */,
+			);
+			name = InterProcessCommunication;
+			sourceTree = "<group>";
+		};
 		6BF1432916A59E1000EAF0B6 /* Private */ = {
 			isa = PBXGroup;
 			children = (
@@ -148,23 +121,15 @@
 			path = BLE_P2P/Private;
 			sourceTree = "<group>";
 		};
-		6BF1435016A59EE300EAF0B6 /* Resources-iPad */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = "Resources-iPad";
-			sourceTree = "<group>";
-		};
 		6BF860FC1648C61400E6C96E = {
 			isa = PBXGroup;
 			children = (
-				6BF1435016A59EE300EAF0B6 /* Resources-iPad */,
-				6BED74F71695906600320721 /* icon_57.png */,
-				6BED74F516958F3100320721 /* icon_114.png */,
+				6BBF12E116FEA77F00197341 /* InterProcessCommunication */,
 				6BF1432916A59E1000EAF0B6 /* Private */,
 				6B88D80316969479003C6C90 /* AJNotificationView */,
 				6BF8619E1648C81300E6C96E /* BLE */,
 				6BF861111648C61500E6C96E /* View */,
+				6BF861121648C61500E6C96E /* Supporting Files */,
 				6BF8610A1648C61500E6C96E /* Frameworks */,
 				6BF861081648C61500E6C96E /* Products */,
 			);
@@ -173,7 +138,6 @@
 		6BF861081648C61500E6C96E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6BF861071648C61500E6C96E /* BLE_P2P.app */,
 				6BEAEDCA16B0B9270059A105 /* HUB.app */,
 			);
 			name = Products;
@@ -202,7 +166,6 @@
 				6BF861231648C61500E6C96E /* MainStoryboard.storyboard */,
 				6BF861261648C61500E6C96E /* ViewController.h */,
 				6BF861271648C61500E6C96E /* ViewController.m */,
-				6BF861121648C61500E6C96E /* Supporting Files */,
 			);
 			name = View;
 			path = BLE_P2P;
@@ -211,6 +174,8 @@
 		6BF861121648C61500E6C96E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6BED74F71695906600320721 /* icon_57.png */,
+				6BED74F516958F3100320721 /* icon_114.png */,
 				6BF861131648C61500E6C96E /* BLE_P2P-Info.plist */,
 				6BF861141648C61500E6C96E /* InfoPlist.strings */,
 				6BF861171648C61500E6C96E /* main.m */,
@@ -220,6 +185,7 @@
 				6BF861211648C61500E6C96E /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			path = BLE_P2P;
 			sourceTree = "<group>";
 		};
 		6BF8619E1648C81300E6C96E /* BLE */ = {
@@ -257,23 +223,6 @@
 			productReference = 6BEAEDCA16B0B9270059A105 /* HUB.app */;
 			productType = "com.apple.product-type.application";
 		};
-		6BF861061648C61500E6C96E /* BLE_P2P */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 6BF8612B1648C61500E6C96E /* Build configuration list for PBXNativeTarget "BLE_P2P" */;
-			buildPhases = (
-				6BF861031648C61500E6C96E /* Sources */,
-				6BF861041648C61500E6C96E /* Frameworks */,
-				6BF861051648C61500E6C96E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = BLE_P2P;
-			productName = BLE_P2P;
-			productReference = 6BF861071648C61500E6C96E /* BLE_P2P.app */;
-			productType = "com.apple.product-type.application";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -295,7 +244,6 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6BF861061648C61500E6C96E /* BLE_P2P */,
 				6BEAEDAC16B0B9270059A105 /* HUB */,
 			);
 		};
@@ -313,20 +261,6 @@
 				6BEAEDC416B0B9270059A105 /* MainStoryboard.storyboard in Resources */,
 				6BEAEDC516B0B9270059A105 /* icon_114.png in Resources */,
 				6BEAEDC616B0B9270059A105 /* icon_57.png in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6BF861051648C61500E6C96E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6BF861161648C61500E6C96E /* InfoPlist.strings in Resources */,
-				6BF8611E1648C61500E6C96E /* Default.png in Resources */,
-				6BF861201648C61500E6C96E /* Default@2x.png in Resources */,
-				6BF861221648C61500E6C96E /* Default-568h@2x.png in Resources */,
-				6BF861251648C61500E6C96E /* MainStoryboard.storyboard in Resources */,
-				6BED74F616958F3100320721 /* icon_114.png in Resources */,
-				6BED74F81695906600320721 /* icon_57.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,6 +287,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6BBF12E416FEB8A100197341 /* InterProcessCommunication.m in Sources */,
 				6BEAEDAE16B0B9270059A105 /* CBAdvertizer.m in Sources */,
 				6BEAEDAF16B0B9270059A105 /* main.m in Sources */,
 				6BEAEDB016B0B9270059A105 /* AppDelegate.m in Sources */,
@@ -361,21 +296,6 @@
 				6BEAEDB316B0B9270059A105 /* CBUUID+Hepler.m in Sources */,
 				6BEAEDB416B0B9270059A105 /* AJNotificationView.m in Sources */,
 				6BEAEDB516B0B9270059A105 /* HIDManager.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6BF861031648C61500E6C96E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6B245AB9169EF1EB002265DE /* CBAdvertizer.m in Sources */,
-				6BF861181648C61500E6C96E /* main.m in Sources */,
-				6BF8611C1648C61500E6C96E /* AppDelegate.m in Sources */,
-				6BF861281648C61500E6C96E /* ViewController.m in Sources */,
-				6BF861B11648C81300E6C96E /* CBScanner.m in Sources */,
-				6B949C5E1672C5310059578B /* CBUUID+Hepler.m in Sources */,
-				6B88D80616969479003C6C90 /* AJNotificationView.m in Sources */,
-				6BF1432D16A59E1000EAF0B6 /* HIDManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -483,37 +403,6 @@
 			};
 			name = Release;
 		};
-		6BF8612C1648C61500E6C96E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "BLE_P2P/BLE_P2P-Prefix.pch";
-				INFOPLIST_FILE = "BLE_P2P/BLE_P2P-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				PRODUCT_NAME = BLE_P2P;
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
-				VALIDATE_PRODUCT = YES;
-				WRAPPER_EXTENSION = app;
-			};
-			name = Debug;
-		};
-		6BF8612D1648C61500E6C96E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "BLE_P2P/BLE_P2P-Prefix.pch";
-				INFOPLIST_FILE = "BLE_P2P/BLE_P2P-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				PRODUCT_NAME = BLE_P2P;
-				"PROVISIONING_PROFILE[sdk=*]" = "";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
-				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -531,15 +420,6 @@
 			buildConfigurations = (
 				6BF861291648C61500E6C96E /* Debug */,
 				6BF8612A1648C61500E6C96E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		6BF8612B1648C61500E6C96E /* Build configuration list for PBXNativeTarget "BLE_P2P" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6BF8612C1648C61500E6C96E /* Debug */,
-				6BF8612D1648C61500E6C96E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

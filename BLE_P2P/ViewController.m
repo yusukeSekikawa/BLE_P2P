@@ -10,7 +10,7 @@
 #import "CBUUID+Hepler.h"
 #import "AJNotificationView.h"
 #import <AudioToolbox/AudioToolbox.h>
-
+#import "InterProcessCommunication.h"
 #ifdef ENABLE_CAMERA_VOLUME_SHUTTER
 #import "HIDManager.h"
 #endif
@@ -32,21 +32,19 @@
     if ([self respondsToSelector:selector]){[self performSelector:selector];}
 #pragma clang diagnostic pop
 }
-/* vibrate peer (Write),read battery of peer (Read)*/
+/* vibrate peer by Writing 0x01 to Servie:1802 Characteristic:2A06*/
 - (void)action_02_01 {
     DNSLogMethod
     uint8_t byteData=0x01;
     NSData *data=[NSData dataWithBytes:&byteData length:1];
     [self.scanner writeDataforService:@"1802" characteristic:@"2A06" data:data];
-    //[self.scanner readDataforService:@"180f" characteristic:@"2A19"];
 }
-/* sound peer (Write),read battery of peer (Read)*/
+/* sound peer by Writing 0x01 to Servie:1802 Characteristic:2A06*/
 - (void)action_02_02 {
     DNSLogMethod
     uint8_t byteData=0x02;
     NSData *data=[NSData dataWithBytes:&byteData length:1];
     [self.scanner writeDataforService:@"1802" characteristic:@"2A06" data:data];
-    //[self.scanner readDataforService:@"180f" characteristic:@"2A19"];
 }
 
 - (void)action_03_01 {
@@ -135,7 +133,7 @@
     //[MPMusicPlayerController applicationMusicPlayer].play;
 }
 - (void)applicationDidEnterBackground:(NSNotification *)notification {
-    
+    DNSLogMethod;
 }
 
 - (void)applicationWillEnterForeground:(NSNotification *)notification {
@@ -168,7 +166,7 @@
                 [HIDManager volumeDown];
 #endif
         }
-        [self postPasteBoadMsg];
+        [InterProcessCommunication postPasteBoadMsg];
     }
 }
 
@@ -269,31 +267,5 @@
 }
 
 #pragma mark Interprocess Communication
-//PasteBoadを使ったプロセス間通信サンプル
-// メッセージをポストする
-- (void)postPasteBoadMsg{
-    NSString *pastboardContents = [UIPasteboard pasteboardWithName:@"com.ysekikawa.BLECOM" create:YES].string;
-    NSInteger index=[pastboardContents integerValue]+1;;
-    NSString *newPastboardContents=[NSString stringWithFormat:@"%d",index];
-    [[UIPasteboard pasteboardWithName:@"com.ysekikawa.BLECOM" create:YES] setString:newPastboardContents];
-    NSLog(@"postPasteBoadMsg");
-}
-
-// メッセージをを取得する
-- (void)watchPasteBoard
-{
-    dispatch_async(dispatch_get_global_queue(0, 0), ^{
-        UIPasteboard *customPasteboad=[UIPasteboard pasteboardWithName:@"com.ysekikawa.BLECOM" create:YES];
-        NSString *pastboardContents = customPasteboad.string;
-        while (1){
-            if (![pastboardContents isEqualToString:customPasteboad.string])
-            {
-                pastboardContents = customPasteboad.string;
-                NSLog(@"Pasteboard Changed.Contents: %@", pastboardContents);
-            }
-            [NSThread sleepForTimeInterval:0.05];
-        }
-    });
-}
 
 @end

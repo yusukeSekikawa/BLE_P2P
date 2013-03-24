@@ -453,7 +453,7 @@ didFailToConnectPeripheral:(CBPeripheral *)aPeripheral
     return [NSArray arrayWithObject:(__bridge id)uuidRef];
 }
 
-#pragma FOR iOS6 BOOK
+#pragma iPhoneアプリ開発エキスパートガイド用サンプル
 // Notifyを無効にする
 - (BOOL)disable_notify{
     if(!self.peripheral) return NO;
